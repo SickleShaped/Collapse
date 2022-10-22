@@ -1,0 +1,3 @@
+if(obj_parent_enemy.phy_position_y<obj_parent_enemy.phy_position_yprevious){phy_position_y=phy_position_y-10}
+if(phy_position_y>phy_position_yprevious){phy_position_y=phy_position_y+10}
+//obj_parent_enemy.phy_position_y

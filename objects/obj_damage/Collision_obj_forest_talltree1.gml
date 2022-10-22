@@ -1,0 +1,1 @@
+instance_nearest(x,y, obj_forest_talltree1).image_index = 1
