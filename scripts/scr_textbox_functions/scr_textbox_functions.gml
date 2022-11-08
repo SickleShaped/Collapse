@@ -10,6 +10,15 @@ function scr_text(_name, _color, _text, _emotion_subimg_1, _emotion_subimg_2)
 	page_number ++;
 }
 
+function scr_text_no(_name, _color, _text)
+{
+	name[page_number]=_name
+	color[page_number]=_color
+	text[page_number]=_text
+	
+	page_number ++;
+}
+
 ///@param spr1, spr1_x, spr1_xscale
 function scr_draw_character_first(_spr_dialogue_1, _spr_dialogue_1_x,  _spr_dialogue_1_xscale)
 {

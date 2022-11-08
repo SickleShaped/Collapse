@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_save_forest1",
   "spriteId": {
-    "name": "spr_save_forest1",
-    "path": "sprites/spr_save_forest1/spr_save_forest1.yy",
+    "name": "spr_save1",
+    "path": "sprites/spr_save1/spr_save1.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_parent_wall",
-    "path": "objects/obj_parent_wall/obj_parent_wall.yy",
+    "name": "obj_parent_interactive_parent",
+    "path": "objects/obj_parent_interactive_parent/obj_parent_interactive_parent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -37,11 +37,13 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_parent","path":"objects/obj_parent/obj_parent.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":12,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":69,"eventType":10,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "forest",
-    "path": "folders/Objects/2Mainstory/locations/forest.yy",
+    "name": "interactive",
+    "path": "folders/Objects/2Mainstory/interactive.yy",
   },
 }

@@ -135,6 +135,70 @@ if(global.cheatmode=1)
 }
 
 
+if(global.mainstorylocation!=global.mainstorylocationbufer)
+{
+	if(pre_intro_timer>0)
+	{
+	pre_intro_timer--;	
+	}
+	else
+	{
+		switch(global.mainstorylocation)
+		{
+			case "Мшистые заросли":
+				if(global.open_location_forest=false)
+				{
+					draw_sprite_ext(spr_location_intro_forest, 0, vx, vy, 1, 1, 0, c_white, alpha)
+					switch(disappearance)
+					{
+					case 0: if(alpha<1){alpha = alpha+0.005} else{disappearance=1; alpha=1;disapp_timer=50;}; break;
+					case 1: if(disapp_timer>0){disapp_timer--;} else{disappearance=2}; break;
+					default: if(alpha>0){alpha=alpha-0.005} else{alpha=0; disappearance=0; global.open_location_forest=true; global.mainstorylocationbufer=global.mainstorylocation; pre_intro_timer=150; }
+					}
+				}
+				else
+				{
+					draw_sprite_ext(spr_location_intro_not_first_forest, 0, vx+640, vy+360, 1, 1, 0, c_white, alpha)
+					switch(disappearance)
+					{
+					case 0: if(alpha<1){alpha = alpha+0.005} else{disappearance=1; alpha=1;disapp_timer=50;}; break;
+					case 1: if(disapp_timer>0){disapp_timer--;} else{disappearance=2}; break;
+					default: if(alpha>0){alpha=alpha-0.005} else{alpha=0; disappearance=0;; global.mainstorylocationbufer=global.mainstorylocation; pre_intro_timer=150; }
+					}
+				}
+			break;
+		
+			case "Тестовое ничто":
+			if(global.open_location_abyss=false)
+				{
+					draw_sprite_ext(spr_location_intro_test_nothing, 0, vx, vy, 1, 1, 0, c_white, alpha)
+					switch(disappearance)
+					{
+					case 0: if(alpha<1){alpha = alpha+0.005} else{disappearance=1; alpha=1;disapp_timer=50;}; break;
+					case 1: if(disapp_timer>0){disapp_timer--;} else{disappearance=2}; break;
+					default: if(alpha>0){alpha=alpha-0.005} else{alpha=0; disappearance=0; global.open_location_abyss=true; global.mainstorylocationbufer=global.mainstorylocation;pre_intro_timer=150; }
+					}
+				}
+				else
+				{
+					draw_sprite_ext(spr_location_intro_not_first_test_nothing, 0, vx+640, vy+360, 1, 1, 0, c_white, alpha)
+					switch(disappearance)
+					{
+					case 0: if(alpha<1){alpha = alpha+0.005} else{disappearance=1; alpha=1;disapp_timer=50;}; break;
+					case 1: if(disapp_timer>0){disapp_timer--;} else{disappearance=2}; break;
+					default: if(alpha>0){alpha=alpha-0.005} else{alpha=0; disappearance=0; global.mainstorylocationbufer=global.mainstorylocation;pre_intro_timer=150; }
+					}
+				}
+		
+			break;
+		}
+
+	}
+	
+	
+
+	
+}
 
 
 
@@ -144,7 +208,7 @@ if(showmap = true)
 	draw_set_color(c_white);
 	draw_set_font(fontmaptext)
 	draw_text(vx+60, vy+40, global.mainstorylocation)
-	if(global.mainstorylocation="Лес")
+	if(global.mainstorylocation="Мшистые заросли")
 	{
 		startx=vx+70;
 		starty=vy+80;
@@ -162,18 +226,18 @@ if(showmap = true)
 		if(global.mapforest13 = 1){draw_sprite(spr_map_forest_rma13, spr_map_forest_rma13, startx+40, starty+88)}
 		if(global.mapforest14 = 1){draw_sprite(spr_map_forest_rma14, spr_map_forest_rma14, startx+65, starty+122)}
 		if(room= rm_forest_1){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+7, starty+6)}
-		if(room= rm_forest_2){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+38, starty+10)}
-		if(room= rm_forest_3){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+62, starty+14)}
-		if(room= rm_forest_4){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+20, starty+36)}
-		if(room= rm_forest_5){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+51, starty+40)}
-		if(room= rm_forest_7){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+13, starty+56)}
-		if(room= rm_forest_8){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+32, starty+75)}
-		if(room= rm_forest_9){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+20, starty+78)}
-		if(room= rm_forest_a10){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+74, starty+62)}
-		if(room= rm_forest_a11){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+87, starty+76)}
-		if(room= rm_forest_a12){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+59, starty+80)}
-		if(room= rm_forest_a13){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+59, starty+105)}
-		if(room= rm_forest_a14){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+74, starty+126)}
+		else if(room= rm_forest_2){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+38, starty+10)}
+		else if(room= rm_forest_3){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+62, starty+14)}
+		else if(room= rm_forest_4){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+20, starty+36)}
+		else if(room= rm_forest_5){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+51, starty+40)}
+		else if(room= rm_forest_7){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+13, starty+56)}
+		else if(room= rm_forest_8){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+32, starty+75)}
+		else if(room= rm_forest_9){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+20, starty+78)}
+		else if(room= rm_forest_a10){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+74, starty+62)}
+		else if(room= rm_forest_a11){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+87, starty+76)}
+		else if(room= rm_forest_a12){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+59, starty+80)}
+		else if(room= rm_forest_a13){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+59, starty+105)}
+		else if(room= rm_forest_a14){draw_sprite(spr_map_joseph_head, spr_map_joseph_head, startx+74, starty+126)}
 	}
 	
 	

@@ -11,4 +11,4 @@ timerch=0
 newx = 145;
 newy = 244;
 newroom = rm_forest_exit;
-nowlocation = "Лес";
+global.mainstorylocation="Мшистые заросли"

@@ -25,9 +25,7 @@ if(e_press)
 		if(timerskip_what_now>=timertoskip)
 		{
 			global.location = 2;
-			instance_create_depth(43, 183, -y, obj_joseph)
-			instance_create_layer(0, 0, "Instances", obj_hpbar)
-			room_goto(rm_forest_1)
+			room_goto(rm_forest_intro)
 		}
 	}
 	

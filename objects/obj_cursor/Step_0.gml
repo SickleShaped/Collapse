@@ -3,12 +3,19 @@ y = mouse_y;
 depth = -100000000000000
 
 
+global.vx = camera_get_view_x(view_camera [0]);
+global.vy = camera_get_view_y(view_camera [0]);
+
+
 
 if(object_exists(obj_parent_enemy))
 {
 	if(distance_to_object(instance_nearest(x, y, obj_parent_enemy))<15){show_inf = true}
 	else{show_inf =false}
 }
+
+
+
 
 
 

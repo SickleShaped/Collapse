@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 271067BE
-/// @DnDArgument : "code" "if (instance_exists(obj_joseph))$(13_10){$(13_10)	if(global.sp_player>50)$(13_10)	{$(13_10)		x += ((obj_joseph.x - x)+((obj_cursor.x - x)/4)) /2$(13_10)		y += ((obj_joseph.y - y)+((obj_cursor.y - y)/4)) /2$(13_10)	}$(13_10)	else$(13_10)$(13_10)	if(global.sp_player<=50&&global.sp_player>25)$(13_10)	{$(13_10)		x += (((obj_joseph.x - x)+((obj_cursor.x - x)/4))+random_range(-1, 1)) /2$(13_10)		y += (((obj_joseph.y - y)+((obj_cursor.y - y)/4))+random_range(-1, 1)) /2$(13_10)	}$(13_10)	else$(13_10)	$(13_10)	if(global.sp_player<=25 && global.sp_player>10)$(13_10)	{$(13_10)		x += (((obj_joseph.x - x)+((obj_cursor.x - x)/4))+random_range(-5, 5)) /2$(13_10)		y += (((obj_joseph.y - y)+((obj_cursor.y - y)/4))+random_range(-5, 5)) /2$(13_10)	}$(13_10)	else$(13_10)	$(13_10)	if(global.sp_player<=10)$(13_10)	{$(13_10)		x += (((obj_joseph.x - x)+((obj_cursor.x - x)/4))+random_range(-10, 10)) /2$(13_10)		y += (((obj_joseph.y - y)+((obj_cursor.y - y)/4))+random_range(-10, 10)) /2$(13_10)	}$(13_10)$(13_10)}$(13_10)$(13_10)global.pause = 0;$(13_10)$(13_10)$(13_10)$(13_10)//y += (obj_joseph.y - y) * 0.4"
+/// @DnDArgument : "code" "if (instance_exists(obj_joseph))$(13_10){$(13_10)	if(global.sp_player>50)$(13_10)	{$(13_10)		x += ((obj_joseph.x - x)+((obj_cursor.x - x)/4)) /2$(13_10)		y += ((obj_joseph.y - y)+((obj_cursor.y - y)/4)) /2$(13_10)	}$(13_10)	else$(13_10)$(13_10)	if(global.sp_player<=50&&global.sp_player>25)$(13_10)	{$(13_10)		x += (((obj_joseph.x - x)+((obj_cursor.x - x)/4))+random_range(-1, 1)) /2$(13_10)		y += (((obj_joseph.y - y)+((obj_cursor.y - y)/4))+random_range(-1, 1)) /2$(13_10)	}$(13_10)	else$(13_10)	$(13_10)	if(global.sp_player<=25 && global.sp_player>10)$(13_10)	{$(13_10)		x += (((obj_joseph.x - x)+((obj_cursor.x - x)/4))+random_range(-5, 5)) /2$(13_10)		y += (((obj_joseph.y - y)+((obj_cursor.y - y)/4))+random_range(-5, 5)) /2$(13_10)	}$(13_10)	else$(13_10)	$(13_10)	if(global.sp_player<=10)$(13_10)	{$(13_10)		x += (((obj_joseph.x - x)+((obj_cursor.x - x)/4))+random_range(-10, 10)) /2$(13_10)		y += (((obj_joseph.y - y)+((obj_cursor.y - y)/4))+random_range(-10, 10)) /2$(13_10)	}$(13_10)$(13_10)}$(13_10)else$(13_10){$(13_10)if (object_exists(obj_joseph_falldown))$(13_10)	{$(13_10)		x = obj_joseph_falldown.x$(13_10)		y = obj_joseph_falldown.y$(13_10)	}$(13_10)	$(13_10)}$(13_10)$(13_10)global.pause = 0;$(13_10)$(13_10)$(13_10)$(13_10)//y += (obj_joseph.y - y) * 0.4"
 if (instance_exists(obj_joseph))
 {
 	if(global.sp_player>50)
@@ -31,6 +31,15 @@ if (instance_exists(obj_joseph))
 		y += (((obj_joseph.y - y)+((obj_cursor.y - y)/4))+random_range(-10, 10)) /2
 	}
 
+}
+else
+{
+if (object_exists(obj_joseph_falldown))
+	{
+		x = obj_joseph_falldown.x
+		y = obj_joseph_falldown.y
+	}
+	
 }
 
 global.pause = 0;

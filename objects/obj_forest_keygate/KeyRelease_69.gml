@@ -29,7 +29,7 @@ if(object_exists(obj_parent_player))
 {
 	if(global.openforestgate_1=true && distance_to_object(obj_parent_player)<10 && image_index = 7)
 	{
-		room_goto_dark(newroom, newx, newy, nowlocation)
+		room_goto_dark(newroom, newx, newy, "Мшистые заросли")
 
 	}
 	

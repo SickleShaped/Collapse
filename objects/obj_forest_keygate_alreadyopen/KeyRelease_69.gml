@@ -20,7 +20,7 @@ if(object_exists(obj_parent_player))
 		obj_joseph.x = newx
 		obj_joseph.y = newy
 		room_goto(newroom)
-		global.mainstorylocation = nowlocation
+		global.mainstorylocation="Мшистые заросли"
 	}
 	
 }
