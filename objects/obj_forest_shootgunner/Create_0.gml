@@ -12,9 +12,15 @@ voidresistance = 2.8
 name = "Вооруженный Зараженный"
 hitforbull = 20 //это насколко выше может попасть пуля
 
-isdead = false;
+
+is_stunned=false;
+stun_now=0
+stun_timer=60
 ///
 razvorot = 0;
+
+
+xscale=1;
 
 directio = 0;
 povorot = 0//смотрит влево или вправо

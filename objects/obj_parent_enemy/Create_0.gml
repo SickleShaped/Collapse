@@ -8,3 +8,5 @@ voidresistance = 1.0
 name ="?Noinfo?"
 hp = 50
 damagecooldown = 90
+
+stamina=50;

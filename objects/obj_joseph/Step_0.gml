@@ -191,8 +191,21 @@ if (global.hp_player>0)
 					bbx = bb - bx;
 					vvx = aax/s;
 					vvy = bbx/s;
-				
-					 instance_create_depth(x+(vvx), y+(vvy)-4, -y, obj_damage)
+					 
+					 with (instance_create_depth(x+vvx,y+vvy-4, -y, obj_damage_joseph_slash).id)
+						{
+							typedamage = global.jotypedamage;
+							
+							mindmg = 50*obj_joseph.sp_damage_boost;
+							maxdmg= 80*obj_joseph.sp_damage_boost;
+
+							speed_dmg = 4;
+							destroy_timer_dmg = 6;
+
+							end_x=obj_cursor.x;
+							end_y=obj_cursor.y;
+						}
+					 
 					}
 				
 				

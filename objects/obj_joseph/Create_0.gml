@@ -10,7 +10,6 @@ sp_previous = global.sp_player
 jodamagemin = 50
 jodamagemax = 80
 sp_damage_boost = 1;
-jotypedamage = "green";
 greenresistance = 1.0
 pinkresistance = 1.7
 blueresistance = 1.3
