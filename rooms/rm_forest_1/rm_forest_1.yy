@@ -16,7 +16,9 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1024,"hview":768,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","instances":[],"visible":true,"depth":-10000000,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5E949DD4","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_shootgunner","path":"objects/obj_forest_shootgunner/obj_forest_shootgunner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":192.0,},
+      ],"visible":true,"depth":-10000000,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"leavesspahdow","tilesetId":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":100,"SerialiseHeight":50,"TileCompressedData":[
 -103,-2147483648,1,9,-105,-2147483648,1,7,-7,-2147483648,1,10,-189,-2147483648,1,6,-592,-2147483648,1,28,-222,-2147483648,1,0,-477,-2147483648,1,10,-901,-2147483648,1,268435466,-497,-2147483648,1,268435466,-1898,-2147483648,],},"visible":true,"depth":-99050,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":true,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"leaves2","tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":100,"SerialiseHeight":50,"TileCompressedData":[
@@ -232,6 +234,7 @@
     {"name":"inst_72DD4E1F_1","path":"rooms/rm_forest_1/rm_forest_1.yy",},
     {"name":"inst_37910A3C","path":"rooms/rm_forest_1/rm_forest_1.yy",},
     {"name":"inst_672F5EE9","path":"rooms/rm_forest_1/rm_forest_1.yy",},
+    {"name":"inst_5E949DD4","path":"rooms/rm_forest_1/rm_forest_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

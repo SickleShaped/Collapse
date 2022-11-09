@@ -171,12 +171,7 @@ if(hp>0)
 			{
 				recharge--;
 				shoottimer = 60;
-				
-				
-				
-				
-				
-				
+
 				if(obj_joseph.x>x)
 				{
 				image_xscale = 1; sprite_index = spr_forest_shootgunner_walk1

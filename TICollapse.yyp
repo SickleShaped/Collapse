@@ -198,6 +198,7 @@
     {"id":{"name":"obj_forest_tree8","path":"objects/obj_forest_tree8/obj_forest_tree8.yy",},"order":11,},
     {"id":{"name":"obj_forest_gothic_lamppost","path":"objects/obj_forest_gothic_lamppost/obj_forest_gothic_lamppost.yy",},"order":28,},
     {"id":{"name":"fontresistance2","path":"fonts/fontresistance2/fontresistance2.yy",},"order":6,},
+    {"id":{"name":"obj_forest_illtentacle_pierce","path":"objects/obj_forest_illtentacle_pierce/obj_forest_illtentacle_pierce.yy",},"order":3,},
     {"id":{"name":"sp10orlower","path":"sprites/sp10orlower/sp10orlower.yy",},"order":25,},
     {"id":{"name":"obj_potato_for_scale","path":"objects/obj_potato_for_scale/obj_potato_for_scale.yy",},"order":0,},
     {"id":{"name":"fontpresse","path":"fonts/fontpresse/fontpresse.yy",},"order":9,},

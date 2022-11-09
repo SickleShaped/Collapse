@@ -26,7 +26,8 @@ if(hp>0)
 			{
 				slash=false && pierce = false
 			}
-			else if(slash=true && pierce = false)
+			
+			else if(slash=true && pierce = false) //слеш атака
 			{
 				if(trigger=1)
 				{
@@ -35,15 +36,39 @@ if(hp>0)
 				}
 				else{slash=false;pierce=false;}
 			}
-			else if(slash=false && pierce = true)
+			
+			
+			
+			else if(slash=false && pierce = true) //колющая атака
 			{
 				if(trigger=1)
 				{
 					sprite_index = spr_forest_ill_tentacle_prepare_to_pierce;
 					image_speed=1;
+					trigger=0;	
 				}
-				else{slash=false; pierce=false;}
+					
+				if(image_speed=1 && image_index>=4)
+				{
+					if(obj_parent_player.x<=x)
+					{
+						image_xscale=-1;
+					}
+					else
+					{
+						
+						image_xscale=1;
+						instance_create_depth(x, y, depth-15, )
+					}
+					
+					image_speed = 0;
+					image_index=4
+				}
 			}
+			
+			
+			
+			
 			else
 			{
 				//бежать к игроку
