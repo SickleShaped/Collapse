@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bullet1",
+  "name": "obj_bullet_joseph_1",
   "spriteId": {
     "name": "spr_bullet",
     "path": "sprites/spr_bullet/spr_bullet.yy",

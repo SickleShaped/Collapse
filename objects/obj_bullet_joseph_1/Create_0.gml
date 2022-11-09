@@ -15,5 +15,14 @@ vvy = bbx/s;
 direction = a2// -point_direction (x, y, obj_cursor.x, obj_cursor.y)
 image_angle = direction
 
-typedamage = "green"
+typedamage = "blue"
 speedb = 5;
+
+destroy_timer_dmg = noone;
+
+end_x=0;
+end_y=0;
+
+damage=1
+
+

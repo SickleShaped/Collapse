@@ -1,4 +1,4 @@
-event_inherited();
+//event_inherited();
 image_angle = 90
 
 x +=(vvx*speedb)

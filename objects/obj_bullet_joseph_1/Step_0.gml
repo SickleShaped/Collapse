@@ -1,4 +1,4 @@
-event_inherited();
+//event_inherited();
 
 
 x +=(vvx*speedb)
@@ -12,15 +12,5 @@ if(object_exists(obj_parent_enemy))
 			instance_destroy()
 	}
 }
-
-if(object_exists(obj_parent_player))
-{
-	if(point_in_rectangle(x, y, obj_joseph.x-4, obj_joseph.y-obj_joseph.hitforbull, obj_joseph.x+4,obj_joseph.y)    )
-	{
-			global.hp_player = global.hp_player - irandom_range(25, 35)*obj_joseph.blueresistance
-			instance_destroy()
-	}	
-}
-
 
 //сделай чтоб не точно летели, а +-

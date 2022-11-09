@@ -183,34 +183,22 @@ if (global.hp_player>0)
 					bb = obj_cursor.y
 					ax = obj_joseph.x
 					bx = obj_joseph.y
-					//a1 = point_direction (x, y, obj_joseph.x, obj_joseph.y)
+					vvx = (aa-ax)/point_distance(aa, bb, ax, bx);
+					vvy = (bb - bx)/point_distance(aa, bb, ax, bx);
 					a2 = point_direction (x, y, obj_cursor.x, obj_cursor.y)
-					//a_diff = angle_difference (a1, a2)
-					s = point_distance(aa, bb, ax, bx)
-					aax = aa-ax;
-					bbx = bb - bx;
-					vvx = aax/s;
-					vvy = bbx/s;
-					 
-					 with (instance_create_depth(x+vvx,y+vvy-4, -y, obj_damage_joseph_slash).id)
-						{
-							typedamage = global.jotypedamage;
-							
-							mindmg = 50*obj_joseph.sp_damage_boost;
-							maxdmg= 80*obj_joseph.sp_damage_boost;
-
-							speed_dmg = 4;
-							destroy_timer_dmg = 6;
-
-							end_x=obj_cursor.x;
-							end_y=obj_cursor.y;
-						}
+					
+					var sword_dmg = instance_create_depth(x+vvx,y+vvy-4, -y, obj_damage_joseph_slash)
+						sword_dmg.typedamage=jotypedamage
+						sword_dmg.mindmg=jodamagemin*sp_damage_boost;
+						sword_dmg.damage=random_range(jodamagemin, jodamagemax)*sp_damage_boost;
+						sword_dmg.end_x=obj_cursor.x;
+						sword_dmg.end_y=obj_cursor.y;
+						sword_dmg.speed_dmg=4;
+						sword_dmg.destroy_timer_dmg=6;
+						
 					 
 					}
 				
-				
-					
-					//перепеши код размаха, ебалдуй
 					image_speed = 1;
 					if(razmah=1)
 					{
@@ -270,13 +258,19 @@ if (global.hp_player>0)
 							vvx = aax/s;
 							vvy = bbx/s;
 					
-							if(trigger = 1){timershoot = timer2; trigger = 0; global.energy=global.energy-4; instance_create_depth(x+(vvx)*18, y+(vvy)*18, -y, obj_bullet1)}
+							if(trigger = 1)
+							{
+							timershoot = timer2; trigger = 0; global.energy=global.energy-4;
+							var bullet = instance_create_depth(x+(vvx)*18, y+(vvy)*18, -y, obj_bullet_joseph_1)
+							
+							
+							}
 							sprite_index = spr_joseph_spin_with_gun1;
 							image_speed = 0;
 							a1 = point_direction (x, y, obj_joseph.x, obj_joseph.y)
 							a2 = point_direction (x, y, obj_cursor.x, obj_cursor.y)	
 
-							a_diff = angle_difference (a1, a2)
+							a_diff = a2//angle_difference (a1, a2)
 							if (a_diff>=-0 && a_diff <=22.5 ) image_index = 0;
 							else if (a_diff>22.5 && a_diff <67.5 ) image_index = 7;
 							else if (a_diff>=67.5 && a_diff <=112.5 ) image_index = 6;

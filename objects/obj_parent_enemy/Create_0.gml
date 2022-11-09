@@ -10,3 +10,5 @@ hp = 50
 damagecooldown = 90
 
 stamina=50;
+
+typed=0;
