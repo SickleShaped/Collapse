@@ -302,6 +302,7 @@
     {"id":{"name":"spr_forest_oof_doorshade","path":"sprites/spr_forest_oof_doorshade/spr_forest_oof_doorshade.yy",},"order":23,},
     {"id":{"name":"spr_flower_5","path":"sprites/spr_flower_5/spr_flower_5.yy",},"order":4,},
     {"id":{"name":"spr_energybar","path":"sprites/spr_energybar/spr_energybar.yy",},"order":20,},
+    {"id":{"name":"spr_esc_to_exit","path":"sprites/spr_esc_to_exit/spr_esc_to_exit.yy",},"order":27,},
     {"id":{"name":"spr_map_forest_rm3","path":"sprites/spr_map_forest_rm3/spr_map_forest_rm3.yy",},"order":3,},
     {"id":{"name":"obj_forest_roofgrass_1","path":"objects/obj_forest_roofgrass_1/obj_forest_roofgrass_1.yy",},"order":0,},
     {"id":{"name":"spr_forest_raspberrybysh_small_3","path":"sprites/spr_forest_raspberrybysh_small_3/spr_forest_raspberrybysh_small_3.yy",},"order":42,},
