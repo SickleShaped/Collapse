@@ -42,7 +42,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "interactive",
-    "path": "folders/Objects/2Mainstory/interactive.yy",
+    "name": "obj",
+    "path": "folders/2_MainStory/Interactive/obj.yy",
   },
 }

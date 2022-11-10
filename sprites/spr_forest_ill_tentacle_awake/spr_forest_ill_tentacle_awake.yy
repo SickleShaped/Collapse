@@ -94,7 +94,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "forest_ill_tentacle",
-    "path": "folders/Sprites/2Mainstory/enemies/forest_ill_tentacle.yy",
+    "name": "spr",
+    "path": "folders/2_MainStory/Enemies/enemies_forest/illtentacle/spr.yy",
   },
 }

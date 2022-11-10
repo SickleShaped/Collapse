@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr",
+    "path": "folders/2_MainStory/Locations/mossy_thickets/spr.yy",
   },
 }

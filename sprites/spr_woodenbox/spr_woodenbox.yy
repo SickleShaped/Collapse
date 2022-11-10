@@ -70,7 +70,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "breakable",
-    "path": "folders/Sprites/2Mainstory/breakable.yy",
+    "name": "Breakable",
+    "path": "folders/2_MainStory/Breakable.yy",
   },
 }

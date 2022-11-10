@@ -41,7 +41,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "NPC",
-    "path": "folders/Objects/2Mainstory/locations/forest/NPC.yy",
+    "name": "herbert",
+    "path": "folders/2_MainStory/NPC/herbert.yy",
   },
 }

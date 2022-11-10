@@ -27,7 +27,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "service",
-    "path": "folders/Objects/service.yy",
+    "name": "obj",
+    "path": "folders/9Service/obj.yy",
   },
 }

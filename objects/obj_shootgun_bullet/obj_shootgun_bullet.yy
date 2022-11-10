@@ -44,6 +44,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "bullets",
-    "path": "folders/Objects/bullets.yy",
+    "path": "folders/9Service/damage/bullets.yy",
   },
 }

@@ -30,7 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "enemies",
-    "path": "folders/Objects/2Mainstory/enemies.yy",
+    "name": "obj",
+    "path": "folders/2_MainStory/Enemies/enemies_forest/shootgunner/obj.yy",
   },
 }

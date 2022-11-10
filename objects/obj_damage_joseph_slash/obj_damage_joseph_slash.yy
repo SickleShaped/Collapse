@@ -39,7 +39,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "service",
-    "path": "folders/Objects/service.yy",
+    "name": "damage",
+    "path": "folders/9Service/damage.yy",
   },
 }

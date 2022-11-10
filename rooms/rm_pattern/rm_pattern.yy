@@ -62,7 +62,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Mainstory",
-    "path": "folders/Rooms/Mainstory.yy",
+    "name": "rooms",
+    "path": "folders/9Service/rooms.yy",
   },
 }

@@ -63,8 +63,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_12765D3B","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_stump_2","path":"objects/obj_forest_stump_2/obj_forest_stump_2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":512.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_22B264C0","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_stump_1","path":"objects/obj_forest_stump_1/obj_forest_stump_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":480.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7C0B373B","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_talltree1","path":"objects/obj_forest_talltree1/obj_forest_talltree1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":544.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7899D27E","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_talltree4","path":"objects/obj_forest_talltree4/obj_forest_talltree4.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":512.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61B6B1C9","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_talltree5","path":"objects/obj_forest_talltree5/obj_forest_talltree5.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":352.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1FB316EB","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_keygate","path":"objects/obj_forest_keygate/obj_forest_keygate.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1146.5,"y":367.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_355A3FF1","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_illtentacle","path":"objects/obj_forest_illtentacle/obj_forest_illtentacle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":352.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -99,8 +97,6 @@
     {"name":"inst_12765D3B","path":"rooms/rm_forest_a14/rm_forest_a14.yy",},
     {"name":"inst_22B264C0","path":"rooms/rm_forest_a14/rm_forest_a14.yy",},
     {"name":"inst_7C0B373B","path":"rooms/rm_forest_a14/rm_forest_a14.yy",},
-    {"name":"inst_7899D27E","path":"rooms/rm_forest_a14/rm_forest_a14.yy",},
-    {"name":"inst_61B6B1C9","path":"rooms/rm_forest_a14/rm_forest_a14.yy",},
     {"name":"inst_1FB316EB","path":"rooms/rm_forest_a14/rm_forest_a14.yy",},
     {"name":"inst_355A3FF1","path":"rooms/rm_forest_a14/rm_forest_a14.yy",},
   ],
@@ -126,7 +122,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "forest",
-    "path": "folders/Rooms/Mainstory/forest.yy",
+    "name": "rooms",
+    "path": "folders/2_MainStory/Locations/mossy_thickets/rooms.yy",
   },
 }

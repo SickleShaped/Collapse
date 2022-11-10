@@ -1,16 +1,23 @@
 //event_inherited();
-
+depth=-y
 
 x +=(vvx*speedb)
 y +=(vvy*speedb)
 
-if(object_exists(obj_parent_enemy))
+var enemy = instance_nearest(x,y, obj_parent_enemy)
+
+if(enemy != noone)
 {
-	if(point_in_rectangle(x, y, (instance_nearest(x, y, obj_parent_enemy)).x-4, (instance_nearest(x, y, obj_parent_enemy)).y-(instance_nearest(x, y, obj_parent_enemy)).hitforbull,(instance_nearest(x, y, obj_parent_enemy)).x+4,(instance_nearest(x, y, obj_parent_enemy)).y)    )
+	rectangle_x1=enemy.x;
+	rectangle_x2=enemy.x;
+	rectangle_y1 =enemy.y-enemy.hitforbull;
+	rectangle_y2= enemy.y
+	
+	if(point_in_rectangle(x, y, rectangle_x1-4, rectangle_y1, rectangle_x2+4, rectangle_y2))
 	{
-			instance_nearest(x, y, obj_parent_enemy).hp = instance_nearest(x, y, obj_parent_enemy).hp - irandom_range(25, 35)*instance_nearest(x, y, obj_parent_enemy).blueresistance
+			enemy.hp = enemy.hp - irandom_range(25, 35)*enemy.blueresistance
 			instance_destroy()
 	}
 }
-
 //сделай чтоб не точно летели, а +-
+

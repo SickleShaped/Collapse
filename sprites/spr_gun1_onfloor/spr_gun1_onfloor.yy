@@ -70,7 +70,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "interactive",
-    "path": "folders/Sprites/2Mainstory/interactive.yy",
+    "name": "spr",
+    "path": "folders/2_MainStory/Interactive/spr.yy",
   },
 }

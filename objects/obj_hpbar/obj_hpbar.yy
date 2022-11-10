@@ -40,7 +40,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "service",
-    "path": "folders/Objects/service.yy",
+    "name": "joseph_obj",
+    "path": "folders/2_MainStory/Player/joseph_obj.yy",
   },
 }

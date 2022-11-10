@@ -1,0 +1,2 @@
+directio=0;
+

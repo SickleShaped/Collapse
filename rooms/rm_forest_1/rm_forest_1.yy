@@ -17,7 +17,9 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5E949DD4","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_shootgunner","path":"objects/obj_forest_shootgunner/obj_forest_shootgunner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1FDC8250","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_talltree1","path":"objects/obj_forest_talltree1/obj_forest_talltree1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_228788D2","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_talltree2","path":"objects/obj_forest_talltree2/obj_forest_talltree2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":256.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4677E87F","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_illtentacle_pierce","path":"objects/obj_forest_illtentacle_pierce/obj_forest_illtentacle_pierce.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":192.0,},
       ],"visible":true,"depth":-10000000,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"leavesspahdow","tilesetId":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":100,"SerialiseHeight":50,"TileCompressedData":[
 -103,-2147483648,1,9,-105,-2147483648,1,7,-7,-2147483648,1,10,-189,-2147483648,1,6,-592,-2147483648,1,28,-222,-2147483648,1,0,-477,-2147483648,1,10,-901,-2147483648,1,268435466,-497,-2147483648,1,268435466,-1898,-2147483648,],},"visible":true,"depth":-99050,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":true,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -90,7 +92,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_46A3B877_1_1","properties":[],"isDnd":true,"objectId":{"name":"obj_forest_tree3","path":"objects/obj_forest_tree3/obj_forest_tree3.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":238.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7B0D58F2_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.7366657,"scaleY":3.8086605,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":458.78665,"y":407.62558,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_511E9CC9_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_skeleton_on_stone","path":"objects/obj_skeleton_on_stone/obj_skeleton_on_stone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":721.0,"y":431.62558,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4D263AA9_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_illtentacle","path":"objects/obj_forest_illtentacle/obj_forest_illtentacle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5E1DF93E_1","properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":27.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1184.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_76E3EA5F_1","properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":23.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1600.0,"y":448.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_12B625AE_1","properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":50.0,"scaleY":5.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":784.0,"y":768.0,},
@@ -117,6 +118,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_72DD4E1F_1","properties":[],"isDnd":true,"objectId":{"name":"obj_forest_tree7","path":"objects/obj_forest_tree7/obj_forest_tree7.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":224.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_37910A3C","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_tower","path":"objects/obj_forest_tower/obj_forest_tower.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":61.0,"y":245.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_672F5EE9","properties":[],"isDnd":false,"objectId":{"name":"obJ_gun1_onfloor","path":"objects/obJ_gun1_onfloor/obJ_gun1_onfloor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":726.0,"y":444.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2180B5CE","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_shootgunner","path":"objects/obj_forest_shootgunner/obj_forest_shootgunner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":256.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"none","properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_5A54372A","spriteId":{"name":"spr_small_grass_2","path":"sprites/spr_small_grass_2/spr_small_grass_2.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1015.0,"y":341.0,},
@@ -207,7 +209,6 @@
     {"name":"inst_46A3B877_1_1","path":"rooms/rm_forest_1/rm_forest_1.yy",},
     {"name":"inst_7B0D58F2_1_1","path":"rooms/rm_forest_1/rm_forest_1.yy",},
     {"name":"inst_511E9CC9_1_1","path":"rooms/rm_forest_1/rm_forest_1.yy",},
-    {"name":"inst_4D263AA9_1_1","path":"rooms/rm_forest_1/rm_forest_1.yy",},
     {"name":"inst_5E1DF93E_1","path":"rooms/rm_forest_1/rm_forest_1.yy",},
     {"name":"inst_76E3EA5F_1","path":"rooms/rm_forest_1/rm_forest_1.yy",},
     {"name":"inst_12B625AE_1","path":"rooms/rm_forest_1/rm_forest_1.yy",},
@@ -234,7 +235,10 @@
     {"name":"inst_72DD4E1F_1","path":"rooms/rm_forest_1/rm_forest_1.yy",},
     {"name":"inst_37910A3C","path":"rooms/rm_forest_1/rm_forest_1.yy",},
     {"name":"inst_672F5EE9","path":"rooms/rm_forest_1/rm_forest_1.yy",},
-    {"name":"inst_5E949DD4","path":"rooms/rm_forest_1/rm_forest_1.yy",},
+    {"name":"inst_1FDC8250","path":"rooms/rm_forest_1/rm_forest_1.yy",},
+    {"name":"inst_228788D2","path":"rooms/rm_forest_1/rm_forest_1.yy",},
+    {"name":"inst_4677E87F","path":"rooms/rm_forest_1/rm_forest_1.yy",},
+    {"name":"inst_2180B5CE","path":"rooms/rm_forest_1/rm_forest_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -258,7 +262,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "forest",
-    "path": "folders/Rooms/Mainstory/forest.yy",
+    "name": "rooms",
+    "path": "folders/2_MainStory/Locations/mossy_thickets/rooms.yy",
   },
 }

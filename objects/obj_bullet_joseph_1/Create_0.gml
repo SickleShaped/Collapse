@@ -25,4 +25,8 @@ end_y=0;
 
 damage=1
 
+rectangle_x1 = 0;
+rectangle_x2=0;
+rectangle_y1=0;
+rectangle_y2=0;
 

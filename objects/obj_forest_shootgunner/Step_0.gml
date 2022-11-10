@@ -228,7 +228,8 @@ if(hp>0)
 }
 else
 {
-instance_destroy()
 instance_create_depth(x, y, depth, obj_forest_shootgunner_dead)
+instance_destroy()
+
 	
 }

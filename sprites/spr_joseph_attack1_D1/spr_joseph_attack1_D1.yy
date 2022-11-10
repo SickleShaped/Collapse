@@ -106,7 +106,7 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "player",
-    "path": "folders/Sprites/2Mainstory/player.yy",
+    "name": "joseph_spr",
+    "path": "folders/2_MainStory/Player/joseph_spr.yy",
   },
 }

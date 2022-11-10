@@ -41,7 +41,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "service",
-    "path": "folders/Objects/service.yy",
+    "name": "Enemies",
+    "path": "folders/2_MainStory/Enemies.yy",
   },
 }

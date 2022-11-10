@@ -138,7 +138,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "forest",
-    "path": "folders/Rooms/Mainstory/forest.yy",
+    "name": "rooms",
+    "path": "folders/2_MainStory/Locations/mossy_thickets/rooms.yy",
   },
 }

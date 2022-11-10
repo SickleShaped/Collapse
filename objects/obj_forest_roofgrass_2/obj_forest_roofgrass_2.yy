@@ -30,7 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "forest",
-    "path": "folders/Objects/2Mainstory/locations/forest.yy",
+    "name": "obj",
+    "path": "folders/2_MainStory/Locations/mossy_thickets/obj.yy",
   },
 }

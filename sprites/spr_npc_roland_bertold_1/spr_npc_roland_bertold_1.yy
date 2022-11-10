@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "NPC",
-    "path": "folders/Sprites/2Mainstory/NPC.yy",
+    "name": "roland&bertold",
+    "path": "folders/2_MainStory/NPC/roland&bertold.yy",
   },
 }

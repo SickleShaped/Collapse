@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "joseph_obj",
+    "path": "folders/2_MainStory/Player/joseph_obj.yy",
   },
 }

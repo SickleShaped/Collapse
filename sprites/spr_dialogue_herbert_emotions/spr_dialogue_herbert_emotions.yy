@@ -84,7 +84,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Dialogue",
-    "path": "folders/Sprites/Dialogue.yy",
+    "name": "herbert",
+    "path": "folders/2_MainStory/NPC/herbert.yy",
   },
 }

@@ -4,7 +4,7 @@
   "name": "Windows",
   "option_windows_display_name": "The Internal Collapse",
   "option_windows_executable_name": "${The Internal Collapse}",
-  "option_windows_version": "0.4.2.5",
+  "option_windows_version": "0.4.3.0",
   "option_windows_company_info": "The Red Key",
   "option_windows_product_info": "The Internal Collapse",
   "option_windows_copyright_info": "(c) 2020 The Red Key",

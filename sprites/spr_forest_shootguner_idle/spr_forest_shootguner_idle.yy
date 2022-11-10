@@ -70,7 +70,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "forest_ill_shootgunner",
-    "path": "folders/Sprites/2Mainstory/enemies/forest_ill_shootgunner.yy",
+    "name": "spr",
+    "path": "folders/2_MainStory/Enemies/enemies_forest/shootgunner/spr.yy",
   },
 }

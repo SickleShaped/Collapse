@@ -116,7 +116,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Unused",
-    "path": "folders/Sprites/Unused.yy",
+    "name": "spr_unused",
+    "path": "folders/2_MainStory/Player/spr_unused.yy",
   },
 }

@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "small_decorations",
-    "path": "folders/Sprites/2Mainstory/small_decorations.yy",
+    "path": "folders/2_MainStory/small_decorations.yy",
   },
 }

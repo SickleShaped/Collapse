@@ -67,7 +67,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_20F5738D","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_tree3","path":"objects/obj_forest_tree3/obj_forest_tree3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":256.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_47F9E342","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_tree7","path":"objects/obj_forest_tree7/obj_forest_tree7.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":672.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2F9DC3E1","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_talltree1","path":"objects/obj_forest_talltree1/obj_forest_talltree1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":576.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_43A8B548","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_talltree2","path":"objects/obj_forest_talltree2/obj_forest_talltree2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":544.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5FBB8112","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_stump_2","path":"objects/obj_forest_stump_2/obj_forest_stump_2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":474.0,"y":401.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_175AFCD2","properties":[],"isDnd":false,"objectId":{"name":"obj_mysterious_trapdoor","path":"objects/obj_mysterious_trapdoor/obj_mysterious_trapdoor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":768.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -99,7 +98,6 @@
     {"name":"inst_20F5738D","path":"rooms/rm_forest_a10/rm_forest_a10.yy",},
     {"name":"inst_47F9E342","path":"rooms/rm_forest_a10/rm_forest_a10.yy",},
     {"name":"inst_2F9DC3E1","path":"rooms/rm_forest_a10/rm_forest_a10.yy",},
-    {"name":"inst_43A8B548","path":"rooms/rm_forest_a10/rm_forest_a10.yy",},
     {"name":"inst_5FBB8112","path":"rooms/rm_forest_a10/rm_forest_a10.yy",},
     {"name":"inst_175AFCD2","path":"rooms/rm_forest_a10/rm_forest_a10.yy",},
   ],
@@ -125,7 +123,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "forest",
-    "path": "folders/Rooms/Mainstory/forest.yy",
+    "name": "rooms",
+    "path": "folders/2_MainStory/Locations/mossy_thickets/rooms.yy",
   },
 }

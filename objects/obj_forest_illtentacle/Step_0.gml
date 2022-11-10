@@ -53,12 +53,12 @@ if(hp>0)
 					if(obj_parent_player.x<=x)
 					{
 						image_xscale=-1;
+						instance_create_depth(x, y-16, depth-15, obj_forest_illtentacle_pierce)
 					}
 					else
 					{
-						
 						image_xscale=1;
-						instance_create_depth(x, y, depth-15, )
+						instance_create_depth(x, y-16, depth-15, obj_forest_illtentacle_pierce)
 					}
 					
 					image_speed = 0;

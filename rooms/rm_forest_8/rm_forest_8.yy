@@ -97,8 +97,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_16BD2722","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_tree1","path":"objects/obj_forest_tree1/obj_forest_tree1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_675D520","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_tree3","path":"objects/obj_forest_tree3/obj_forest_tree3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":768.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E45649E","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_tree5","path":"objects/obj_forest_tree5/obj_forest_tree5.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":1120.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_18239CFE","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_talltree2","path":"objects/obj_forest_talltree2/obj_forest_talltree2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":736.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3ABDA2BB","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_talltree2","path":"objects/obj_forest_talltree2/obj_forest_talltree2.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":768.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_B75C307","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_stump_1","path":"objects/obj_forest_stump_1/obj_forest_stump_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":672.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5505AB51","properties":[],"isDnd":false,"objectId":{"name":"obj_service_door_mainstory","path":"objects/obj_service_door_mainstory/obj_service_door_mainstory.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":2.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":608.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -136,8 +134,6 @@
     {"name":"inst_16BD2722","path":"rooms/rm_forest_8/rm_forest_8.yy",},
     {"name":"inst_675D520","path":"rooms/rm_forest_8/rm_forest_8.yy",},
     {"name":"inst_3E45649E","path":"rooms/rm_forest_8/rm_forest_8.yy",},
-    {"name":"inst_18239CFE","path":"rooms/rm_forest_8/rm_forest_8.yy",},
-    {"name":"inst_3ABDA2BB","path":"rooms/rm_forest_8/rm_forest_8.yy",},
     {"name":"inst_B75C307","path":"rooms/rm_forest_8/rm_forest_8.yy",},
     {"name":"inst_5505AB51","path":"rooms/rm_forest_8/rm_forest_8.yy",},
   ],
@@ -163,7 +159,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "forest",
-    "path": "folders/Rooms/Mainstory/forest.yy",
+    "name": "rooms",
+    "path": "folders/2_MainStory/Locations/mossy_thickets/rooms.yy",
   },
 }

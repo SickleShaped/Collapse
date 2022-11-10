@@ -80,7 +80,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Dialogue",
-    "path": "folders/Sprites/Dialogue.yy",
+    "name": "joseph_spr",
+    "path": "folders/2_MainStory/Player/joseph_spr.yy",
   },
 }

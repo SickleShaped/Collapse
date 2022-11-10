@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "forest",
-    "path": "folders/Sprites/2Mainstory/locations/forest.yy",
+    "name": "spr",
+    "path": "folders/9Service/tiles/spr.yy",
   },
 }

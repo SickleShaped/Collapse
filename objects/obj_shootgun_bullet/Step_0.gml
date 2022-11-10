@@ -4,7 +4,7 @@ image_angle = 90
 x +=(vvx*speedb)
 y +=(vvy*speedb)
 
-if(object_exists(obj_parent_enemy))
+if(object_exists(obj_parent_enemy)=true)
 {
 	if(point_in_rectangle(x, y, (instance_nearest(x, y, obj_parent_enemy)).x-4, (instance_nearest(x, y, obj_parent_enemy)).y-(instance_nearest(x, y, obj_parent_enemy)).hitforbull,(instance_nearest(x, y, obj_parent_enemy)).x+4,(instance_nearest(x, y, obj_parent_enemy)).y)    )
 	{

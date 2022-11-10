@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Dialogue",
-    "path": "folders/Sprites/Dialogue.yy",
+    "path": "folders/9Service/Dialogue.yy",
   },
 }
