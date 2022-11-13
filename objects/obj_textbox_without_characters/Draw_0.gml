@@ -77,5 +77,5 @@ draw_text_ext(textbox_x + + border+25, textbox_y + border+255, _drawtext, line_s
 
 //имя
 draw_sprite_ext(textb_spr,textb_img, textbox_x+25, textbox_y+220, 110/textb_spr_w, 30/textb_spr_h, 0, c_white, 0.45)
-draw_set_color(color[page]);
+draw_set_color(c_white);
 draw_text(textbox_x+30, textbox_y+223, name[page])

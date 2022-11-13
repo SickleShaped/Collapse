@@ -119,6 +119,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_37910A3C","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_tower","path":"objects/obj_forest_tower/obj_forest_tower.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":61.0,"y":245.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_672F5EE9","properties":[],"isDnd":false,"objectId":{"name":"obJ_gun1_onfloor","path":"objects/obJ_gun1_onfloor/obJ_gun1_onfloor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":726.0,"y":444.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2180B5CE","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_shootgunner","path":"objects/obj_forest_shootgunner/obj_forest_shootgunner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":256.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2C2FD39A","properties":[],"isDnd":false,"objectId":{"name":"obj_npc_herbert","path":"objects/obj_npc_herbert/obj_npc_herbert.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":320.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"none","properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_5A54372A","spriteId":{"name":"spr_small_grass_2","path":"sprites/spr_small_grass_2/spr_small_grass_2.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1015.0,"y":341.0,},
@@ -239,6 +240,7 @@
     {"name":"inst_228788D2","path":"rooms/rm_forest_1/rm_forest_1.yy",},
     {"name":"inst_4677E87F","path":"rooms/rm_forest_1/rm_forest_1.yy",},
     {"name":"inst_2180B5CE","path":"rooms/rm_forest_1/rm_forest_1.yy",},
+    {"name":"inst_2C2FD39A","path":"rooms/rm_forest_1/rm_forest_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

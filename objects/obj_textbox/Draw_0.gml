@@ -90,7 +90,7 @@ if(spr_emotion_2 != noone) {draw_sprite_ext(spr_emotion_2, spr_emotion_2_subimg[
 
 //имя
 draw_sprite_ext(textb_spr,textb_img, textbox_x+25, textbox_y+220, 110/textb_spr_w, 30/textb_spr_h, 0, c_white, 0.45)
-draw_set_color(color[page]);
+draw_set_color(c_white);
 draw_text(textbox_x+30, textbox_y+223, name[page])
 //диалог
 draw_sprite_ext(textb_spr, textb_img, textbox_x+25, textbox_y+255, textbox_width/textb_spr_w, textbox_hieght/textb_spr_h, 0, c_white, 0.45)

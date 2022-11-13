@@ -168,9 +168,10 @@ if(global.mainstorylocation!=global.mainstorylocationbufer)
 				}
 			break;
 		
-			case "Тестовое ничто":
+			case "Abyss":
 			if(global.open_location_abyss=false)
 				{
+					
 					draw_sprite_ext(spr_location_intro_test_nothing, 0, vx, vy, 1, 1, 0, c_white, alpha)
 					switch(disappearance)
 					{

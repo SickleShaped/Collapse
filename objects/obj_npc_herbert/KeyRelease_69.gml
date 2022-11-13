@@ -15,11 +15,11 @@ if(distance_to_object(obj_joseph)<40 && active_dialogue == 0)
 
 		scr_draw_character_first(spr_dialogue_joseph, 130, -1)
 		scr_draw_character_second(spr_dialogue_herbert, 380, 1)
-		scr_text("Герберт",global.color_herbert,"эй, жопа, хочешь анекдотттт", 0, 3)
-		scr_text("Джозеф",global.color_joseph,"М? ну давай", 4, 8)
-		scr_text("Герберт",global.color_herbert,"ебет клоун клоуна", 1, 4)
-		scr_text("Герберт",global.color_herbert,"а тот ему и говорит - чет несмешно нихуяяя", 1, 4)
-		scr_text("Джозеф",global.color_joseph,"Ладно ахахахаха", 5, 7)
+		scr_text("Герберт","эй, жопа, хочешь анекдотттт", 0, 3)
+		scr_text("Джозеф","М? ну давай", 4, 8)
+		scr_text("Герберт","ебет клоун клоуна", 1, 4)
+		scr_text("Герберт","а тот ему и говорит - чет несмешно нихуяяя", 1, 4)
+		scr_text("Джозеф","Ладно ахахахаха", 5, 7)
 
 
 		

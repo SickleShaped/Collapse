@@ -1,8 +1,8 @@
 ///@param name, color, text, emotion_1, emotion_2
-function scr_text(_name, _color, _text, _emotion_subimg_1, _emotion_subimg_2)
+function scr_text(_name, _text, _emotion_subimg_1, _emotion_subimg_2)
 {
 	name[page_number]=_name
-	color[page_number]=_color
+	//color[page_number]=_color
 	text[page_number]=_text
 	spr_emotion_1_subimg[page_number]=_emotion_subimg_1
 	spr_emotion_2_subimg[page_number]=_emotion_subimg_2
@@ -10,10 +10,10 @@ function scr_text(_name, _color, _text, _emotion_subimg_1, _emotion_subimg_2)
 	page_number ++;
 }
 
-function scr_text_no(_name, _color, _text)
+function scr_text_no(_name, _text)
 {
 	name[page_number]=_name
-	color[page_number]=_color
+	//color[page_number]=_color
 	text[page_number]=_text
 	
 	page_number ++;

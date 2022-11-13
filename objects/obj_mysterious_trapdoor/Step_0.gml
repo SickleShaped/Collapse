@@ -17,10 +17,10 @@ if(distance_to_object(obj_joseph)<10 )
 
 			scr_draw_character_first(spr_dialogue_joseph, 130, -1)
 			scr_draw_character_second(noone, 380, 1)
-			scr_text("Джозеф", global.color_joseph,"Люк? В лесу?", 4, 0)
-			scr_text("Джозеф", global.color_joseph,"...", 0, 0)
-			scr_text("Джозеф", global.color_joseph,"Заперт", 0, 0)
-			scr_text("Джозеф", global.color_joseph,"Видимо, не мое дело.", 0, 0)
+			scr_text("Джозеф","Люк? В лесу?", 4, 0)
+			scr_text("Джозеф" ,"...", 0, 0)
+			scr_text("Джозеф", "Заперт", 0, 0)
+			scr_text("Джозеф", "Видимо, не мое дело.", 0, 0)
 		
 		}
 	}

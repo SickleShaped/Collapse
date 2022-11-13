@@ -16,7 +16,9 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1024,"hview":768,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3DBA7CA8","properties":[],"isDnd":false,"objectId":{"name":"obj_service_menu_dark","path":"objects/obj_service_menu_dark/obj_service_menu_dark.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":224.0,},
+      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_73CE6D26","properties":[],"isDnd":true,"objectId":{"name":"obj_back_button","path":"objects/obj_back_button/obj_back_button.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_168DADBE","properties":[],"isDnd":false,"objectId":{"name":"obj_single_story_button","path":"objects/obj_single_story_button/obj_single_story_button.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":190.0,"y":40.0,},
@@ -41,6 +43,7 @@
     {"name":"inst_1B02F984","path":"rooms/rm_singleplayer_lobby/rm_singleplayer_lobby.yy",},
     {"name":"inst_7063D6FA","path":"rooms/rm_singleplayer_lobby/rm_singleplayer_lobby.yy",},
     {"name":"inst_64B7BBA4","path":"rooms/rm_singleplayer_lobby/rm_singleplayer_lobby.yy",},
+    {"name":"inst_3DBA7CA8","path":"rooms/rm_singleplayer_lobby/rm_singleplayer_lobby.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -7,6 +7,9 @@ global.maxsp = 100;
 hp_previous = global.hp_player
 sp_previous = global.sp_player
 
+hp=100;
+sp=100;
+
 jodamagemin = 50
 jodamagemax = 80
 jotypedamage="green"
