@@ -12,6 +12,7 @@ ini_write_string("Joseph", "room", room )
 ini_write_real("Joseph", "global.x_player", obj_joseph.x);
 ini_write_real("Joseph", "global.y_player", obj_joseph.y);
 ini_write_real("Joseph", "global.healscount", global.healscount);
+ini_write_string("Joseph", "global.mainstorylocation", global.mainstorylocation);
 
 //флешбеки хорошие
 ini_write_real("Flashback", "global.flashbackgood1", global.flashbackgood1);
@@ -107,6 +108,25 @@ ini_write_real("Characters", "global.dialogue_roland", global.dialogue_roland);
 ini_write_real("Characters", "global.dialogue_bertold", global.dialogue_bertold);
 ini_write_real("Characters", "global.dialogue_plant", global.dialogue_plant);
 ini_write_real("Characters", "global.dialogue_owner_of_the_forest", global.dialogue_owner_of_the_forest);
+
+//локации
+ini_write_real("Locations", "global.open_location_forest", global.open_location_forest);
+ini_write_real("Locations", "global.open_location_cold_vastness", global.open_location_cold_vastness);
+ini_write_real("Locations", "global.open_location_rusty_forest", global.open_location_rusty_forest);
+ini_write_real("Locations", "global.open_location_bleedy_cliffs", global.open_location_bleedy_cliffs);
+ini_write_real("Locations", "global.open_location_crystal_caves", global.open_location_crystal_caves);
+ini_write_real("Locations", "global.open_location_howling_swamp", global.open_location_howling_swamp);
+ini_write_real("Locations", "global.open_location_junkyard", global.open_location_junkyard);
+ini_write_real("Locations", "global.open_location_echo_valley", global.open_location_echo_valley );
+ini_write_real("Locations", "global.open_location_city_of_winds", global.open_location_city_of_winds);
+ini_write_real("Locations", "global.open_location_white_taiga", global.open_location_white_taiga);
+ini_write_real("Locations", "global.open_location_outskirs", global.open_location_outskirs);
+ini_write_real("Locations", "global.open_location_wastelands", global.open_location_wastelands);
+ini_write_real("Locations", "global.open_location_abyss", global.open_location_abyss );
+ini_write_real("Locations", "global.open_location_floating_lands", global.open_location_floating_lands);
+ini_write_real("Locations", "global.open_location_city_of_lanterns", global.open_location_city_of_lanterns);
+ini_write_real("Locations", "global.open_location_the_spire_of_cube", global.open_location_the_spire_of_cube);
+
 
 
 

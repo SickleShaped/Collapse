@@ -3,7 +3,7 @@
 if(skip_alpha>0)
 {
 	draw_sprite_ext(spr_e_to_skip, spr_e_to_skip, 541, 334, 1, 1, 0, c_white, skip_alpha)
-	draw_set_font(fontresistance6)
+	draw_set_font(font_skip)
 	draw_set_color(c_white)
 	draw_text_color(552, 323, "для пропуска", c_white, c_white, c_white, c_white, skip_alpha)
 	skip_alpha -=0.005
@@ -36,7 +36,7 @@ if(e_press)
 if(esc_alpha>0)
 {
 	draw_sprite_ext(spr_esc_to_exit, spr_esc_to_exit, 16, 334, 1, 1, 0, c_white, esc_alpha)
-	draw_set_font(fontresistance6)
+	draw_set_font(font_skip)
 	draw_set_color(c_white)
 	draw_text_color(31, 323, "для выхода в меню", c_white, c_white, c_white, c_white, esc_alpha)
 	esc_alpha -=0.005

@@ -24,7 +24,7 @@ if(infotrigger = true)
 			draw_text(vx+576, vy+33, instance_nearest(x, y, obj_parent_enemy).voidresistance)
 			draw_text(vx+611, vy+33, instance_nearest(x, y, obj_parent_enemy).hp)
 		
-			draw_set_font(fontresistance2)
+			draw_set_font(fontresistance_name)
 			draw_text(vx+535, vy+5, instance_nearest(x, y, obj_parent_enemy).name)
 
 		}

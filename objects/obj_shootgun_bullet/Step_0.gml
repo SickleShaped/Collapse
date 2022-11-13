@@ -4,19 +4,23 @@ image_angle = 90
 x +=(vvx*speedb)
 y +=(vvy*speedb)
 
-if(object_exists(obj_parent_enemy)=true)
+var enemy = instance_nearest(x,y, obj_parent_player)
+
+if(enemy != noone)
 {
-	if(point_in_rectangle(x, y, (instance_nearest(x, y, obj_parent_enemy)).x-4, (instance_nearest(x, y, obj_parent_enemy)).y-(instance_nearest(x, y, obj_parent_enemy)).hitforbull,(instance_nearest(x, y, obj_parent_enemy)).x+4,(instance_nearest(x, y, obj_parent_enemy)).y)    )
+	rectangle_x1=enemy.x;
+	rectangle_x2=enemy.x;
+	rectangle_y1 =enemy.y-enemy.hitforbull;
+	rectangle_y2= enemy.y
+	
+	if(point_in_rectangle(x, y, rectangle_x1-4, rectangle_y1, rectangle_x2+4, rectangle_y2))
 	{
-		if(type="friendly")
-		{
-			instance_nearest(x, y, obj_parent_enemy).hp = instance_nearest(x, y, obj_parent_enemy).hp - irandom_range(mindmg, maxdmg)*instance_nearest(x, y, obj_parent_enemy).blueresistance
-			instance_destroy()	
-		}
-		else{instance_destroy()}
+			global.hp_player = global.hp_player - irandom_range(15, 20)*enemy.blueresistance
+			instance_destroy()
 	}
 }
 
+/*
 if(object_exists(obj_parent_player))
 {
 	if(point_in_rectangle(x, y, obj_joseph.x-4, obj_joseph.y-obj_joseph.hitforbull, obj_joseph.x+4,obj_joseph.y)    )

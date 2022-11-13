@@ -1,7 +1,7 @@
 {
   "resourceType": "GMFont",
   "resourceVersion": "1.0",
-  "name": "fontresistance2",
+  "name": "fontresistance_name",
   "hinting": 0,
   "glyphOperations": 0,
   "interpreter": 0,

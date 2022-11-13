@@ -33,6 +33,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "parents",
-    "path": "folders/9Service/parents.yy",
+    "path": "folders/Service/parents.yy",
   },
 }

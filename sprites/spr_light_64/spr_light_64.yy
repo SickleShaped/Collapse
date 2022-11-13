@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "spr",
-    "path": "folders/9Service/lights/spr.yy",
+    "path": "folders/Service/lights/spr.yy",
   },
 }

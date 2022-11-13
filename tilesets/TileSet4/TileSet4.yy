@@ -73,6 +73,6 @@
   },
   "parent": {
     "name": "tiles",
-    "path": "folders/9Service/tiles.yy",
+    "path": "folders/Service/tiles.yy",
   },
 }

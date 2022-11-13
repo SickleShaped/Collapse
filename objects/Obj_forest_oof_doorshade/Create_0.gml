@@ -1,6 +1,6 @@
 newx = 0;
 newy = 0;
 newroom = noone;
-nowlocation="Мшистые заросли"
+nowlocation="MossyThickets"
 cursor_index = 0;
 depth = -20

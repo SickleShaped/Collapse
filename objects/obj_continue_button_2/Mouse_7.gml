@@ -16,10 +16,13 @@ global.unlockgun4 = ini_read_real("Joseph", "global.unlockgun4", 0);
 global.unlockgun5 = ini_read_real("Joseph", "global.unlockgun5", 0);
 global.unlockgun6 = ini_read_real("Joseph", "global.unlockgun6", 0);
 
+global.mainstorylocation = ini_read_string("Joseph", "global.mainstorylocation", 0)
+global.mainstorylocationbufer = ini_read_string("Joseph", "global.mainstorylocation", 0)
+
+
+
 //считай!
 
-global.mainstorylocationbufer = noone;
-global.mainstorylocation = noone;
 
 global.OwnerOfTheForest = ini_read_real("Boss_defeat", "global.OwnerOfTheForest", 0 );
 global.Stump = ini_read_real("Boss_defeat", "global.Stump", 0);
@@ -133,6 +136,25 @@ global.mapforest12 = ini_read_real("Map", "global.mapforest12", 0 );
 global.mapforest13 = ini_read_real("Map", "global.mapforest13", 0 );
 global.mapforest14 = ini_read_real("Map", "global.mapforest14", 0 );
 
+
+global.open_location_forest = ini_read_real("Locations", "global.open_location_forest", 0);
+global.open_location_cold_vastness = ini_read_real("Locations", "global.open_location_cold_vastness", 0);
+global.open_location_rusty_forest = ini_read_real("Locations", "global.open_location_rusty_forest", 0);
+global.open_location_bleedy_cliffs = ini_read_real("Locations", "global.open_location_bleedy_cliffs", 0);
+global.open_location_crystal_caves = ini_read_real("Locations", "global.open_location_crystal_caves", 0);
+global.open_location_howling_swamp = ini_read_real("Locations", "global.open_location_howling_swamp", 0);
+global.open_location_junkyard = ini_read_real("Locations", "global.open_location_junkyard", 0);
+global.open_location_echo_valley = ini_read_real("Locations", "global.open_location_echo_valley", 0 );
+global.open_location_city_of_winds = ini_read_real("Locations", "global.open_location_city_of_winds", 0);
+global.open_location_white_taiga = ini_read_real("Locations", "global.open_location_white_taiga", 0);
+global.open_location_outskirs = ini_read_real("Locations", "global.open_location_outskirs", 0);
+global.open_location_wastelands = ini_read_real("Locations", "global.open_location_wastelands", 0);
+global.open_location_abyss = ini_read_real("Locations", "global.open_location_abyss", 0 );
+global.open_location_floating_lands = ini_read_real("Locations", "global.open_location_floating_lands", 0);
+global.open_location_city_of_lanterns = ini_read_real("Locations", "global.open_location_city_of_lanterns", 0);
+global.open_location_the_spire_of_cube = ini_read_real("Locations", "global.open_location_the_spire_of_cube", 0);
+
+
 global.save_forest1 = ini_read_real("OpenedSaves", "global.save_forest1", 0 );
 global.save_forest2 = ini_read_real("OpenedSaves", "global.save_forest2", 0 );
 global.save_forest3 = ini_read_real("OpenedSaves", "global.save_forest3", 0 );
@@ -153,7 +175,10 @@ global.readsave=1;
 
 instance_create_depth(global.x_save, global.y_save, 0, obj_joseph)
 instance_create_layer(0, 0, "Instances_1", obj_hpbar)
+//global.mainstorylocation = location;
+//global.mainstorylocationbufer = location;
 room_goto(global.where_i_am)
+
 
 
 }

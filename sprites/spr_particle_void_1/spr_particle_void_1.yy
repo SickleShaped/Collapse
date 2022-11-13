@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "particles",
-    "path": "folders/9Service/obj/particles.yy",
+    "path": "folders/Service/obj/particles.yy",
   },
 }

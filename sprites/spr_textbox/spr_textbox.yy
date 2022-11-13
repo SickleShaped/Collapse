@@ -93,6 +93,6 @@
   },
   "parent": {
     "name": "Dialogue",
-    "path": "folders/9Service/Dialogue.yy",
+    "path": "folders/Service/Dialogue.yy",
   },
 }

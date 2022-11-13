@@ -59,7 +59,7 @@ if(hitthefloor = 1)
 		instance_create_depth(135, 280, -y, obj_joseph)
 		instance_create_layer(0, 0, "Instances", obj_hpbar)
 		global.save_forest1 = 1;
-		global.mainstorylocation="Мшистые заросли";
+		global.mainstorylocation="MossyThickets";
 		global.savebanner = 2;
 		save();
 		instance_destroy()

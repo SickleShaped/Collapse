@@ -60,6 +60,6 @@
   },
   "parent": {
     "name": "rooms",
-    "path": "folders/9Service/rooms.yy",
+    "path": "folders/Service/rooms.yy",
   },
 }

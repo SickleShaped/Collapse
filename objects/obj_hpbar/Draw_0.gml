@@ -145,7 +145,7 @@ if(global.mainstorylocation!=global.mainstorylocationbufer)
 	{
 		switch(global.mainstorylocation)
 		{
-			case "Мшистые заросли":
+			case "MossyThickets":
 				if(global.open_location_forest=false)
 				{
 					draw_sprite_ext(spr_location_intro_forest, 0, vx, vy, 1, 1, 0, c_white, alpha)
@@ -204,12 +204,15 @@ if(global.mainstorylocation!=global.mainstorylocationbufer)
 
 if(showmap = true)
 {
-	draw_sprite(spr_backmap, spr_backmap, vx+320, vy+180)
-	draw_set_color(c_white);
-	draw_set_font(fontmaptext)
-	draw_text(vx+60, vy+40, global.mainstorylocation)
-	if(global.mainstorylocation="Мшистые заросли")
+	
+	if(global.mainstorylocation="MossyThickets")
 	{
+		draw_sprite(spr_backmap, spr_backmap, vx+320, vy+180)
+		draw_set_color(c_white);
+		draw_set_font(fontmaptext)
+		draw_text(vx+60, vy+40, "Мшистые заросли")
+		
+		
 		startx=vx+70;
 		starty=vy+80;
 		if(global.mapforest1 = 1){draw_sprite(spr_map_forest_rm1, spr_map_forest_rm1, startx, starty)}

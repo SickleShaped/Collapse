@@ -22,3 +22,5 @@ blur_hp_drop =0;
 blur_sp_drop = 0;
 
 savebanner_alpha = 0
+
+global.mainstorylocation= 0

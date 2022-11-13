@@ -1,5 +1,8 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 5ED20F76
-/// @DnDArgument : "code" "global.readsave = 2;"
 global.readsave = 2;
+
+location = "no"
+
+ini_open("2save.ini")
+{
+	location = ini_read_string("Joseph", "global.mainstorylocation", 0)
+}

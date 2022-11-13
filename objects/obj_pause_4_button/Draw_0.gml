@@ -2,7 +2,7 @@ var vx = camera_get_view_x(view_camera [0]);
 var vy = camera_get_view_y(view_camera [0]);
 
 
-draw_set_font(Font4)
+draw_set_font(font_pause)
 lol = make_color_rgb(95, 160, 59)
 draw_set_color(lol);
 var vx = camera_get_view_x(view_camera [0]);
