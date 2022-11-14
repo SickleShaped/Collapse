@@ -2,13 +2,33 @@ event_inherited()
 
 global.pause = 0;
 global.pause2 = 0;
-global.maxhp = 100;
-global.maxsp = 100;
-hp_previous = global.hp_player
-sp_previous = global.sp_player
+maxhp = 100;
+maxsp = 100;
+
+money=0;
 
 hp=100;
 sp=100;
+hp_previous = hp
+sp_previous = sp
+
+gun=0;
+//gunhave=1;
+gunhave1 = 0;
+gunhave2=0;
+gunhave3=0;
+gunhave4=0;
+gunhave5=0;
+gunhave6=0;
+
+
+healscount = 3;
+energy = 27
+
+swordmod=noone;
+swordmodhave1 = 0;
+swordmodhave2=0;
+swordmodhave3 = 0;
 
 jodamagemin = 50
 jodamagemax = 80
@@ -27,7 +47,6 @@ timerstun =20
 
 
 //для пистолеата
-global.energy = 27;
 
 shooting = 0
 directio = 0;
@@ -53,7 +72,7 @@ trigger = 1 //для того, чтобы иметь возможность од
 triggernext = 0
 
 //для хилок
-global.maxheal = 6
+maxheal = 6
 ///global.healscount = global.maxheal;
 
 
@@ -121,4 +140,4 @@ part_type_alpha3(partSystemvoid, 0, random_range(0.5, 1), 0)
 
 
 
-global.canshoot = true;
+canshoot = true;

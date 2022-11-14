@@ -8,8 +8,8 @@ y = vy+80;
 depth=-y-100000
 
 
-if(global.hp_player <=0) {instance_destroy(obj_hpbar)}
-if(global.sp_player <=0) {instance_destroy(obj_hpbar)}
+if(obj_joseph.hp <=0) {instance_destroy(obj_hpbar)}
+if(obj_joseph.sp <=0) {instance_destroy(obj_hpbar)}
 
 if image<5
 {

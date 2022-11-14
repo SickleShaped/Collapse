@@ -7,7 +7,6 @@ if(global.dark>0)
 	draw_sprite_ext(spr_particle_void_1, 0, vx, vy, room_width, room_height, 0, 0, global.dark)
 }
 
-
 if(infotrigger = true)
 {
 	if(object_exists(obj_parent_enemy))

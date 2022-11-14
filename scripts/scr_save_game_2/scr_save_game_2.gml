@@ -5,13 +5,13 @@ if(global.location = 2)
 {
 ini_open("2save.ini")
 //джозеф
-ini_write_real("Joseph", "global.hp_player", global.hp_player);
-ini_write_real("Joseph", "global.sp_player", global.sp_player);
-ini_write_real("Joseph", "global.money", global.money);
+ini_write_real("Joseph", "hp", obj_joseph.hp);
+ini_write_real("Joseph", "sp", obj_joseph.sp);
+ini_write_real("Joseph", "money", obj_joseph.money);
 ini_write_string("Joseph", "room", room )
-ini_write_real("Joseph", "global.x_player", obj_joseph.x);
-ini_write_real("Joseph", "global.y_player", obj_joseph.y);
-ini_write_real("Joseph", "global.healscount", global.healscount);
+ini_write_real("Joseph", "x", obj_joseph.x);
+ini_write_real("Joseph", "y", obj_joseph.y);
+ini_write_real("Joseph", "healscount", obj_joseph.healscount);
 ini_write_string("Joseph", "global.mainstorylocation", global.mainstorylocation);
 
 //флешбеки хорошие
@@ -39,19 +39,19 @@ ini_write_real("Flashback", "global.flashbackbad7", global.flashbackbad7);
 ini_write_real("Flashback", "global.flashbackbad8", global.flashbackbad8);
 
 //о пистолетах
-ini_write_real("Guns", "global.gun", global.gun);
-ini_write_real("Guns", "global.gunhave1", global.gunhave1);
-ini_write_real("Guns", "global.gunhave2", global.gunhave2);
-ini_write_real("Guns", "global.gunhave3", global.gunhave3);
-ini_write_real("Guns", "global.gunhave4", global.gunhave4);
-ini_write_real("Guns", "global.gunhave5", global.gunhave5);
-ini_write_real("Guns", "global.gunhave6", global.gunhave6);
+ini_write_real("Guns", "gun", obj_joseph.gun);
+ini_write_real("Guns", "gunhave1", obj_joseph.gunhave1);
+ini_write_real("Guns", "gunhave2", obj_joseph.gunhave2);
+ini_write_real("Guns", "gunhave3", obj_joseph.gunhave3);
+ini_write_real("Guns", "gunhave4", obj_joseph.gunhave4);
+ini_write_real("Guns", "gunhave5", obj_joseph.gunhave5);
+ini_write_real("Guns", "gunhave6", obj_joseph.gunhave6);
 //модификаторы меча
 
-ini_write_real("Sword", "global.swordmod", global.swordmod);
-ini_write_real("Sword", "global.swordmodhave1", global.swordmodhave1);
-ini_write_real("Sword", "global.swordmodhave2", global.swordmodhave2);
-ini_write_real("Sword", "global.swordmodhave3", global.swordmodhave3);
+ini_write_real("Sword", "swordmod", obj_joseph.swordmod);
+ini_write_real("Sword", "swordmodhave1", obj_joseph.swordmodhave1);
+ini_write_real("Sword", "swordmodhave2", obj_joseph.swordmodhave2);
+ini_write_real("Sword", "swordmodhave3", obj_joseph.swordmodhave3);
 
 //о боссах
 ini_write_real("Boss_defeat", "global.OwnerOfTheForest", global.OwnerOfTheForest);
@@ -103,6 +103,7 @@ ini_write_real("OpenedSaves", "global.save_forest3", global.save_forest3);
 ini_write_real("Items", "global.haveforestkey", global.haveforestkey);
 
 //проресс диалогов
+
 
 ini_write_real("Characters", "global.dialogue_roland", global.dialogue_roland);
 ini_write_real("Characters", "global.dialogue_bertold", global.dialogue_bertold);

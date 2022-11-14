@@ -12,28 +12,28 @@ attack = (mouse_check_button_pressed(global.settings_swordslash));
 block = (keyboard_check_pressed(global.settings_block));
 
 
-if (global.hp_player>0)
+if (hp>0)
 {
-	if(global.sp_player>0)
+	if(sp>0)
 	{
 		
-		global.energy = clamp(global.energy, 0, 27)
+		energy = clamp(energy, 0, 27)
 		donow = clamp(donow, 0, 1)
 		trigger=clamp(trigger, 0, 1)
 
-		global.hp_player = clamp(global.hp_player, 0, global.maxhp)
-		global.sp_player = clamp(global.sp_player, 0, global.maxsp)
+		hp = clamp(hp, 0, maxhp)
+		sp = clamp(sp, 0, maxsp)
 		
-		if(global.sp_player>60){sp_damage_boost = 1}
-		else if(global.sp_player<=60 && global.sp_player>40){sp_damage_boost = 1.2}
-		else if(global.sp_player<=40 && global.sp_player>20){sp_damage_boost = 1.5}
-		else if(global.sp_player<=20 && global.sp_player>10){sp_damage_boost = 1.8}
-		else if(global.sp_player<=10){sp_damage_boost = 2.3}
+		if(sp>60){sp_damage_boost = 1}
+		else if(sp<=60 && sp>40){sp_damage_boost = 1.2}
+		else if(sp<=40 && sp>20){sp_damage_boost = 1.5}
+		else if(sp<=20 && sp>10){sp_damage_boost = 1.8}
+		else if(sp<=10){sp_damage_boost = 2.3}
 		
 		//зарядка пистолета
-		if(global.energy<4){global.canshoot = false;}
-		if(global.energy<27 && energytimer = 0){energytimer = 120; energycharging = 1}
-		if(global.energy >=27 && global.canshoot = false){global.canshoot = true}	
+		if(energy<4){canshoot = false;}
+		if(energy<27 && energytimer = 0){energytimer = 120; energycharging = 1}
+		if(energy >=27 && canshoot = false){canshoot = true}	
 		if(energycharging = 1)
 		{
 			energytimer--;
@@ -43,9 +43,8 @@ if (global.hp_player>0)
 		//donow - действие сейчас, donext - следующее действие
 		//actcooldown - перерыв между действиями, нажатиями кнопки,
 		
-		if(global.hp_player=hp_previous && global.sp_player=sp_previous)
+		if(hp=hp_previous && sp=sp_previous)
 		{
-		
 		
 			if(actcooldown = 0)
 			{
@@ -295,14 +294,14 @@ if (global.hp_player>0)
 							timerz = timer5; trigger = 0; image_index = 1;
 							
 							}
-						if(global.healscount>0)
+						if(healscount>0)
 						{
 							sprite_index = spr_joseph_green_heal;
 							image_speed = 1;
 							if(directioLR=1){image_xscale = 1} else {image_xscale = -1}
-							if(timerz<timer5/4){global.hp_player += 1}				
+							if(timerz<timer5/4){hp += 1}				
 							timerz--;
-							if(timerz = 0||image_index = 25){image_xscale = 1; global.hp_player += 18; action = 0; global.healscount--; donow--; hp_previous = global.hp_player;
+							if(timerz = 0||image_index = 25){image_xscale = 1; hp += 18; action = 0; healscount--; donow--; hp_previous = hp;
 								with obj_cursor
 								{
 									//alarm[2]=1;
@@ -316,17 +315,17 @@ if (global.hp_player>0)
 					
 					case 5: //хил сп
 						if(trigger = 1){timerx = timer4; trigger = 0; image_index = 1;}
-						if(global.healscount>0)
+						if(healscount>0)
 						{
 							sprite_index = spr_joseph_pink_heal;
 							image_speed = 1;
 				
 							if(directioLR=1){image_xscale = 1} else {image_xscale = -1}
 						
-							if(timerx<timer4 /4){global.sp_player += 1}
+							if(timerx<timer4 /4){sp += 1}
 					
 							timerx--;
-							if(timerx = 0||image_index = 25){image_xscale = 1;  global.sp_player += 18; action = 0; global.healscount--; donow--; sp_previous = global.sp_player;
+							if(timerx = 0||image_index = 25){image_xscale = 1;  sp += 18; action = 0; healscount--; donow--; sp_previous = sp;
 								with obj_cursor
 								{
 									//alarm[2]=1;
@@ -429,8 +428,8 @@ if (global.hp_player>0)
 			if(stunstunstun=0)
 			{
 				stunstunstun=1;
-				var hpdif = hp_previous-global.hp_player;
-				var spdif = sp_previous-global.sp_player;
+				var hpdif = hp_previous-hp;
+				var spdif = sp_previous-sp;
 				if(hpdif>=spdif)
 				{
 					timerstun=30+hpdif
@@ -450,7 +449,7 @@ if (global.hp_player>0)
 					image_speed = 0;
 					if(directioLR=1){image_xscale = 1} else {image_xscale = -1}
 				}
-				else{donow=0; action = 0;sp_previous = global.sp_player; hp_previous=global.hp_player; image_xscale  =1; stunstunstun=0	}
+				else{donow=0; action = 0;sp_previous = sp; hp_previous=hp; image_xscale  =1; stunstunstun=0	}
 			}
 			
 			

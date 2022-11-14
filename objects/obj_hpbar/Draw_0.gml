@@ -5,51 +5,51 @@ var vy = camera_get_view_y(view_camera [0]);
 draw_sprite(spr_healtbar_p1, spr_healtbar_p1, vx +0, vy + 15)
 draw_sprite(spr_healtbar_psycho_p1, spr_healtbar_psycho_p1, vx +0, vy + 42)
 
-if (global.hp_player > 5) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+37, vy+20)}
-else if (global.hp_player <= 5) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+37, vy+20)}
-if (global.hp_player > 15) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+45, vy+20)}
-else if (global.hp_player <= 15 && global.hp_player >10) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+45, vy+20)}
-if (global.hp_player > 25) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+53, vy+20)}
-else if (global.hp_player <= 25 && global.hp_player >20) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+53, vy+20)}
-if (global.hp_player > 35) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+61, vy+20)}
-else if (global.hp_player <= 35 && global.hp_player >30) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+61, vy+20)}
-if (global.hp_player > 45) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+69, vy+20)}
-else if (global.hp_player <= 45 && global.hp_player >40) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+69, vy+20)}
-if (global.hp_player > 55) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+77, vy+20)}
-else if (global.hp_player <= 55 && global.hp_player >50) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+77, vy+20)}
-if (global.hp_player > 65) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+85, vy+20)}
-else if (global.hp_player <= 65 && global.hp_player >60) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+85, vy+20)}
-if (global.hp_player > 75) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+93, vy+20)}
-else if (global.hp_player <= 75 && global.hp_player >70) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+93, vy+20)}
-if (global.hp_player > 85) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+101, vy+20)}
-else if (global.hp_player <= 85 && global.hp_player >80) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+101, vy+20)}
-if (global.hp_player > 95) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+109, vy+20)}
-else if (global.hp_player <= 95 && global.hp_player >90) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+109, vy+20)}
+if (obj_joseph.hp > 5) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+37, vy+20)}
+else if (obj_joseph.hp <= 5) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+37, vy+20)}
+if (obj_joseph.hp > 15) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+45, vy+20)}
+else if (obj_joseph.hp <= 15 && obj_joseph.hp >10) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+45, vy+20)}
+if (obj_joseph.hp > 25) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+53, vy+20)}
+else if (obj_joseph.hp <= 25 && obj_joseph.hp >20) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+53, vy+20)}
+if (obj_joseph.hp > 35) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+61, vy+20)}
+else if (obj_joseph.hp <= 35 && obj_joseph.hp >30) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+61, vy+20)}
+if (obj_joseph.hp > 45) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+69, vy+20)}
+else if (obj_joseph.hp <= 45 && obj_joseph.hp >40) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+69, vy+20)}
+if (obj_joseph.hp > 55) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+77, vy+20)}
+else if (obj_joseph.hp <= 55 && obj_joseph.hp >50) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+77, vy+20)}
+if (obj_joseph.hp > 65) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+85, vy+20)}
+else if (obj_joseph.hp <= 65 && obj_joseph.hp >60) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+85, vy+20)}
+if (obj_joseph.hp > 75) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+93, vy+20)}
+else if (obj_joseph.hp <= 75 && obj_joseph.hp >70) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+93, vy+20)}
+if (obj_joseph.hp > 85) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+101, vy+20)}
+else if (obj_joseph.hp <= 85 && obj_joseph.hp >80) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+101, vy+20)}
+if (obj_joseph.hp > 95) {draw_sprite(spr_hp_bar_full , spr_hp_bar_full, vx+109, vy+20)}
+else if (obj_joseph.hp <= 95 && obj_joseph.hp >90) {draw_sprite(spr_hp_bar_unfull , spr_hp_bar_unfull, vx+109, vy+20)}
 
 
-if (global.sp_player > 5) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+37, vy+47)}
-else if (global.sp_player <= 5) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+37, vy+47)}
-if (global.sp_player > 15) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+45, vy+47)}
-else if (global.sp_player <= 15 && global.sp_player >10) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+45, vy+47)}
-if (global.sp_player > 25) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+53, vy+47)}
-else if (global.sp_player <= 25 && global.sp_player >20) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+53, vy+47)}
-if (global.sp_player > 35) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+61, vy+47)}
-else if (global.sp_player <= 35 && global.sp_player >30) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+61, vy+47)}
-if (global.sp_player > 45) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+69, vy+47)}
-else if (global.sp_player <= 45 && global.sp_player >40) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+69, vy+47)}
-if (global.sp_player > 55) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+77, vy+47)}
-else if (global.sp_player <= 55 && global.sp_player >50) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+77, vy+47)}
-if (global.sp_player > 65) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+85, vy+47)}
-else if (global.sp_player <= 65 && global.sp_player >60) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+85, vy+47)}
-if (global.sp_player > 75) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+93, vy+47)}
-else if (global.sp_player <= 75 && global.sp_player >70) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+93, vy+47)}
-if (global.sp_player > 85) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+101, vy+47)}
-else if (global.sp_player <= 85 && global.sp_player >80) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+101, vy+47)}
-if (global.sp_player > 95) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+109, vy+47)}
-else if (global.sp_player <= 95 && global.sp_player >90) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+109, vy+47)}
+if (obj_joseph.sp > 5) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+37, vy+47)}
+else if (obj_joseph.sp <= 5) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+37, vy+47)}
+if (obj_joseph.sp > 15) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+45, vy+47)}
+else if (obj_joseph.sp <= 15 && obj_joseph.sp >10) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+45, vy+47)}
+if (obj_joseph.sp > 25) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+53, vy+47)}
+else if (obj_joseph.sp<= 25 && obj_joseph.sp >20) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+53, vy+47)}
+if (obj_joseph.sp > 35) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+61, vy+47)}
+else if (obj_joseph.sp <= 35 && obj_joseph.sp >30) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+61, vy+47)}
+if (obj_joseph.sp > 45) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+69, vy+47)}
+else if (obj_joseph.sp <= 45 && obj_joseph.sp >40) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+69, vy+47)}
+if (obj_joseph.sp > 55) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+77, vy+47)}
+else if (obj_joseph.sp <= 55 && obj_joseph.sp >50) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+77, vy+47)}
+if (obj_joseph.sp > 65) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+85, vy+47)}
+else if (obj_joseph.sp <= 65 && obj_joseph.sp >60) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+85, vy+47)}
+if (obj_joseph.sp > 75) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+93, vy+47)}
+else if (obj_joseph.sp <= 75 && obj_joseph.sp >70) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+93, vy+47)}
+if (obj_joseph.sp > 85) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+101, vy+47)}
+else if (obj_joseph.sp <= 85 && obj_joseph.sp >80) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+101, vy+47)}
+if (obj_joseph.sp > 95) {draw_sprite(spr_sp_bar_full , spr_sp_bar_full, vx+109, vy+47)}
+else if (obj_joseph.sp <= 95 && obj_joseph.sp >90) {draw_sprite(spr_sp_bar_unfull , spr_sp_bar_unfull, vx+109, vy+47)}
 
 
-switch (global.healscount)
+switch (obj_joseph.healscount)
 {
 case 6:
 	draw_sprite(spr_heal_have, spr_heal_have, vx+161, vy+19)
@@ -66,7 +66,7 @@ case 1:
 	break;
 }
 
-switch (global.energy)
+switch (obj_joseph.energy)
 {
 case 27:
 	draw_sprite(spr_energybar,spr_energybar,vx+165, vy+29)
@@ -124,7 +124,7 @@ case 1:
 	draw_sprite(spr_energybar,spr_energybar,vx+139, vy+29)
 	break;	
 }
-if(global.canshoot = false){draw_sprite(spr_no_shoot_now, spr_no_shoot_now, vx+139, vy+ 29)}
+if(obj_joseph.canshoot = false){draw_sprite(spr_no_shoot_now, spr_no_shoot_now, vx+139, vy+ 29)}
 
 if(global.cheatmode=1)
 {
@@ -247,9 +247,9 @@ if(showmap = true)
 	
 }
 	
-if(global.sp_player >40&&global.sp_player<61){draw_sprite(sp60orlower, image, vx, vy)}
-if(global.sp_player >25&&global.sp_player<41){draw_sprite(sp40orlower, image, vx, vy)}
-if(global.sp_player >10&&global.sp_player<26){draw_sprite(sp25orlower, image, vx, vy)}
-if(global.sp_player<11){draw_sprite(sp10orlower, image, vx, vy)}
+if(obj_joseph.sp>40&&obj_joseph.sp<61){draw_sprite(sp60orlower, image, vx, vy)}
+if(obj_joseph.sp>25&&obj_joseph.sp<41){draw_sprite(sp40orlower, image, vx, vy)}
+if(obj_joseph.sp >10&&obj_joseph.sp<26){draw_sprite(sp25orlower, image, vx, vy)}
+if(obj_joseph.sp<11){draw_sprite(sp10orlower, image, vx, vy)}
 
 }

@@ -7,6 +7,7 @@
     {"id":{"name":"spr_singleplayer_button_unpress","path":"sprites/spr_singleplayer_button_unpress/spr_singleplayer_button_unpress.yy",},"order":25,},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},"order":21,},
     {"id":{"name":"spr_singleplayer_button_press","path":"sprites/spr_singleplayer_button_press/spr_singleplayer_button_press.yy",},"order":24,},
+    {"id":{"name":"room_menu_pre_continue","path":"rooms/room_menu_pre_continue/room_menu_pre_continue.yy",},"order":7,},
     {"id":{"name":"spr_multiplayer_botton_unpress","path":"sprites/spr_multiplayer_botton_unpress/spr_multiplayer_botton_unpress.yy",},"order":14,},
     {"id":{"name":"obj_forest_shootgunner_dead","path":"objects/obj_forest_shootgunner_dead/obj_forest_shootgunner_dead.yy",},"order":1,},
     {"id":{"name":"obj_forest_tree5","path":"objects/obj_forest_tree5/obj_forest_tree5.yy",},"order":34,},
@@ -412,6 +413,7 @@
     {"roomId":{"name":"rm_forest_1","path":"rooms/rm_forest_1/rm_forest_1.yy",},},
     {"roomId":{"name":"rm_pre_forest","path":"rooms/rm_pre_forest/rm_pre_forest.yy",},},
     {"roomId":{"name":"rm_forest_exit","path":"rooms/rm_forest_exit/rm_forest_exit.yy",},},
+    {"roomId":{"name":"room_menu_pre_continue","path":"rooms/room_menu_pre_continue/room_menu_pre_continue.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"_Menu","folderPath":"folders/_Menu.yy","order":20,},
