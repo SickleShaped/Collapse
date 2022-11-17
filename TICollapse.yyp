@@ -87,7 +87,6 @@
     {"id":{"name":"spr_joseph_attack1_D1","path":"sprites/spr_joseph_attack1_D1/spr_joseph_attack1_D1.yy",},"order":2,},
     {"id":{"name":"spr_forest_roofgrass_1","path":"sprites/spr_forest_roofgrass_1/spr_forest_roofgrass_1.yy",},"order":0,},
     {"id":{"name":"spr_woodenbox","path":"sprites/spr_woodenbox/spr_woodenbox.yy",},"order":0,},
-    {"id":{"name":"obj_single_chain","path":"objects/obj_single_chain/obj_single_chain.yy",},"order":13,},
     {"id":{"name":"spr_nothing","path":"sprites/spr_nothing/spr_nothing.yy",},"order":18,},
     {"id":{"name":"spr_forest_roofgrass_2","path":"sprites/spr_forest_roofgrass_2/spr_forest_roofgrass_2.yy",},"order":1,},
     {"id":{"name":"obj_parent_bullet","path":"objects/obj_parent_bullet/obj_parent_bullet.yy",},"order":1,},

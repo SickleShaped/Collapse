@@ -20,9 +20,6 @@ if (hp>0)
 		energy = clamp(energy, 0, 27)
 		donow = clamp(donow, 0, 1)
 		trigger=clamp(trigger, 0, 1)
-
-		hp = clamp(hp, 0, maxhp)
-		sp = clamp(sp, 0, maxsp)
 		
 		if(sp>60){sp_damage_boost = 1}
 		else if(sp<=60 && sp>40){sp_damage_boost = 1.2}
@@ -242,7 +239,7 @@ if (hp>0)
 				
 					case 3: //выстрел
 				
-						if(global.gun = 1 && global.energy>=4 && global.canshoot = true)
+						if(gun = 1 && energy>=4 && canshoot = true)
 						{
 							aa = obj_cursor.x
 							bb = obj_cursor.y
@@ -296,6 +293,7 @@ if (hp>0)
 							}
 						if(healscount>0)
 						{
+							hp = clamp(hp, 0, maxhp)
 							sprite_index = spr_joseph_green_heal;
 							image_speed = 1;
 							if(directioLR=1){image_xscale = 1} else {image_xscale = -1}
@@ -317,6 +315,7 @@ if (hp>0)
 						if(trigger = 1){timerx = timer4; trigger = 0; image_index = 1;}
 						if(healscount>0)
 						{
+							sp = clamp(sp, 0, maxsp)
 							sprite_index = spr_joseph_pink_heal;
 							image_speed = 1;
 				

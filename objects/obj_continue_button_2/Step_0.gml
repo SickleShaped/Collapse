@@ -7,3 +7,6 @@
 	room_goto(room_menu_pre_continue)	
 		
 	}
+	
+*/
+
