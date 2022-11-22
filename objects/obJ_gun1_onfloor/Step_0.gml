@@ -1,7 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 3192DC79
-/// @DnDArgument : "code" "if(distance_to_object(obj_cursor)<10)$(13_10){$(13_10)	if(smenaplus=0)$(13_10)	{$(13_10)	image_index++;$(13_10)	smenaplus = 1;$(13_10)	smenaminus = 0$(13_10)	$(13_10)	$(13_10)	}$(13_10)}	$(13_10)$(13_10)if(distance_to_object(obj_cursor)>=10)$(13_10){ $(13_10)	if(smenaminus=0){$(13_10)	image_index--;$(13_10)	smenaplus = 0;$(13_10)	smenaminus = 1;$(13_10)	}$(13_10)	$(13_10)}$(13_10)$(13_10)if(global.gunhave1 = 1){instance_destroy()}"
 if(distance_to_object(obj_cursor)<10)
 {
 	if(smenaplus=0)
@@ -13,7 +9,7 @@ if(distance_to_object(obj_cursor)<10)
 	
 	}
 }	
-
+else
 if(distance_to_object(obj_cursor)>=10)
 { 
 	if(smenaminus=0){
@@ -24,4 +20,9 @@ if(distance_to_object(obj_cursor)>=10)
 	
 }
 
-if(global.gunhave1 = 1){instance_destroy()}
+var player = instance_nearest(x, y, obj_parent_player)
+if(player !=noone)
+{
+	//if(player.gunhave1 = 1) {instance_destroy()}
+	
+}

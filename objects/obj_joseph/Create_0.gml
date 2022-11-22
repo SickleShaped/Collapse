@@ -12,18 +12,46 @@ sp=100;
 hp_previous = hp
 sp_previous = sp
 
+stamina=50;
+
+isHealing=0;
+isHealingTrigger=0;
+healingTimer = 0;
+healingMaxTimer = 60
+healingType=noone;
+
 gun=0;
-//gunhave=1;
 gunhave1 = 0;
 gunhave2=0;
 gunhave3=0;
 gunhave4=0;
 gunhave5=0;
 gunhave6=0;
-
-
 healscount = 3;
-energy = 27
+
+money = 127;
+
+flashbackGood1=0;
+flashbackGood2=0;
+flashbackGood3=0;
+flashbackGood4=0;
+flashbackGood5=0;
+flashbackGood6=0;
+flashbackGood7=0;
+flashbackGood8=0;
+flashbackGood9=0;
+flashbackGood10=0;
+
+flashbackBad1=0;
+flashbackBad2=0
+flashbackBad3=0
+flashbackBad4=0
+flashbackBad5=0
+
+
+
+
+
 
 swordmod=noone;
 swordmodhave1 = 0;
@@ -34,7 +62,11 @@ jodamagemin = 50
 jodamagemax = 80
 jotypedamage="green"
 
+energy = 27
+
 sp_damage_boost = 1;
+
+
 greenresistance = 1.0
 pinkresistance = 1.7
 blueresistance = 1.3
@@ -69,11 +101,9 @@ chill = 0// че это
 razmah = 1
 
 trigger = 1 //для того, чтобы иметь возможность один раз присвоить значение)
-triggernext = 0
 
 //для хилок
 maxheal = 6
-///global.healscount = global.maxheal;
 
 
 action = 0
@@ -113,8 +143,7 @@ timer61 = 0
 timerslash = 0;
 timershoot = 0;
 timercharge = 0;
-timerx= 0
-timerz = 0;
+
 timerctrl = 0;
 
 timerspace = 0;

@@ -1,5 +1,6 @@
 event_inherited();
 
+
 charge = (keyboard_check_pressed(global.settings_charge));
 healgreen = (keyboard_check(global.settings_greenheal));
 healpink = (keyboard_check(global.settings_pinkheal));
@@ -18,8 +19,37 @@ if (hp>0)
 	{
 		
 		energy = clamp(energy, 0, 27)
-		donow = clamp(donow, 0, 1)
-		trigger=clamp(trigger, 0, 1)
+		//donow = clamp(donow, 0, 1)
+		//trigger=clamp(trigger, 0, 1)
+		
+		if(isHealing)
+		{
+			if(isHealingTrigger=1)
+			{
+				healingTimer = healingMaxTimer
+				isHealingTrigger=0;
+				
+			}
+			else
+			{
+				if(healingTimer>0)
+				{
+					healingTimer--;
+					if(healingType="pink")
+					{
+						sp+=1
+					}
+					else
+					{
+						hp+=1;	
+					}
+					
+				}
+				else isHealing=0;
+			}
+			
+		}
+		
 		
 		if(sp>60){sp_damage_boost = 1}
 		else if(sp<=60 && sp>40){sp_damage_boost = 1.2}
@@ -34,13 +64,13 @@ if (hp>0)
 		if(energycharging = 1)
 		{
 			energytimer--;
-			if(energytimer <=0){energycharging = 0; energytimer = 0; global.energy++}
+			if(energytimer <=0){energycharging = 0; energytimer = 0; energy++}
 		}
 		
 		//donow - действие сейчас, donext - следующее действие
 		//actcooldown - перерыв между действиями, нажатиями кнопки,
 		
-		if(hp=hp_previous && sp=sp_previous)
+		if(stamina>0)
 		{
 		
 			if(actcooldown = 0)
@@ -256,7 +286,7 @@ if (hp>0)
 					
 							if(trigger = 1)
 							{
-							timershoot = timer2; trigger = 0; global.energy=global.energy-4;
+							timershoot = timer2; trigger = 0; energy=energy-4;
 							var bullet = instance_create_depth(x+(vvx)*18, y+(vvy)*18, -y, obj_bullet_joseph_1)
 							
 							
@@ -287,28 +317,46 @@ if (hp>0)
 					break;
 				
 					case 4: //хил хп
-						if(trigger = 1){
-							timerz = timer5; trigger = 0; image_index = 1;
-							
-							}
+					
+					var hpBeforeHealing = hp
+					if(trigger=1 && healscount>0)
+					{
+						trigger = 0; image_index = 0; sprite_index = spr_joseph_green_heal;
+							image_speed = 1;
+						
+					}
+					
+					if(image_index>=13)
+					
+					
+					
+					
+					
+					
+					
+					if(trigger = 1){timerz = timer5; trigger = 0; image_index = 1;}
 						if(healscount>0)
 						{
-							hp = clamp(hp, 0, maxhp)
+							hp = clamp(sp, 0, maxsp)
+							timerz--;
 							sprite_index = spr_joseph_green_heal;
 							image_speed = 1;
+				
 							if(directioLR=1){image_xscale = 1} else {image_xscale = -1}
-							if(timerz<timer5/4){hp += 1}				
-							timerz--;
-							if(timerz = 0||image_index = 25){image_xscale = 1; hp += 18; action = 0; healscount--; donow--; hp_previous = hp;
+						
+							if(timerz<timer5 /4){hp += 1}
+					
+							
+							if(timerz = 0||image_index >= 24){image_xscale = 1;  hp += 18; action = 0; healscount--; donow--; hp_previous = hp;
 								with obj_cursor
 								{
 									//alarm[2]=1;
-									blur_hp_trigger=1
-								}
-								}
+									blur_hp_trigger=1;
+								}}
 						}
-						else {action=0; donow = 0;}
-				
+						else {action=0; donow=0;}
+					
+						
 					break;
 					
 					case 5: //хил сп
@@ -316,6 +364,7 @@ if (hp>0)
 						if(healscount>0)
 						{
 							sp = clamp(sp, 0, maxsp)
+							timerx--;
 							sprite_index = spr_joseph_pink_heal;
 							image_speed = 1;
 				
@@ -323,8 +372,8 @@ if (hp>0)
 						
 							if(timerx<timer4 /4){sp += 1}
 					
-							timerx--;
-							if(timerx = 0||image_index = 25){image_xscale = 1;  sp += 18; action = 0; healscount--; donow--; sp_previous = sp;
+							
+							if(timerx = 0||image_index >= 24){image_xscale = 1;  sp += 18; action = 0; healscount--; donow--; sp_previous = sp;
 								with obj_cursor
 								{
 									//alarm[2]=1;
@@ -422,8 +471,12 @@ if (hp>0)
 		
 		
 		}
-		else
+		else//стамина равна 0
 		{
+			
+			
+			
+			
 			if(stunstunstun=0)
 			{
 				stunstunstun=1;
@@ -450,19 +503,7 @@ if (hp>0)
 				}
 				else{donow=0; action = 0;sp_previous = sp; hp_previous=hp; image_xscale  =1; stunstunstun=0	}
 			}
-			
-			
-			/*
-			if(timerstun>0)
-			{
-			timerstun--;
-			sprite_index = spr_joseph_charge_tired;
-			image_speed = 0;
-			if(directioLR=1){image_xscale = 1} else {image_xscale = -1}
-		
-			}
-			else{timerstun = 30; donow=0; action = 0;sp_previous = global.sp_player; hp_previous=global.hp_player; image_xscale  =1;	}
-			*/
+
 		}
 		
 	}

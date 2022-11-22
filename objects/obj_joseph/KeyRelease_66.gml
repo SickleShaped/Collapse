@@ -1,0 +1,1 @@
+stamina=0

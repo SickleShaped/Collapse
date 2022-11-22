@@ -65,7 +65,6 @@ if file_exists("2save.ini"){
 	global.where_i_am = ini_read_real("Joseph", "room", rm_forest_1 );
 	global.x_player = ini_read_real("Joseph", "global.money", 43);
 	global.y_player = ini_read_real("Joseph", "global.money", 184);
-	global.healscount = ini_read_real("Joseph", "global.healscount", 3);
 
 	global.flashbackgood1 = ini_read_real("Flashback", "global.flashbackgood1", 0 );
 	global.flashbackgood2 = ini_read_real("Flashback", "global.flashbackgood2", 0 );

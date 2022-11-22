@@ -1,4 +1,6 @@
-if(distance_to_object(obj_joseph)<10)
+var player = instance_nearest(x, y, obj_parent_player)
+
+if(distance_to_object(player)<10)
 {
 	with (instance_create_depth(0, 0, -100000, obj_textbox))
 	{
@@ -19,9 +21,10 @@ if(distance_to_object(obj_joseph)<10)
 		scr_text("Джозеф","М?", 4, 0)
 		scr_text("Джозеф","Пистолет. Чтож, думаю мне будет нужнее.", 0, 0)
 	}
-	if(global.gunhave1 = 0)
+	if(player.gunhave1 = 0)
 	{
-		global.gunhave1 = 1;
-		global.gun = 1;
+		player.gunhave1 = 1;
+		player.gun = 1;
+		instance_destroy()
 	}
 }
