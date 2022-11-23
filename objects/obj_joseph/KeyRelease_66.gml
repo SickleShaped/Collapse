@@ -1,1 +1,1 @@
-stamina=0
+hp=hp-40

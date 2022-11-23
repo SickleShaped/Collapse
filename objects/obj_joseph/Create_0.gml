@@ -17,8 +17,53 @@ stamina=50;
 isHealing=0;
 isHealingTrigger=0;
 healingTimer = 0;
-healingMaxTimer = 60
-healingType=noone;
+healingMaxTimer = 150
+healingCooldown = 0;
+
+triggerCallFunction = 0 //используется для хила и хила сп
+
+function healGreen()
+{
+	healingTimer=healingMaxTimer;
+	healingCooldown = 0;
+	while(healingTimer>0)
+	{
+		if(healingCooldown<10)
+		{
+			healingCooldown++;
+			
+		}
+		else
+		{
+			healingCooldown=0
+			hp+=5;
+			clamp(hp, 0, maxhp)
+		}
+
+		healingTimer--;
+	}
+}
+
+function healPink()
+{
+	healingTimer=healingMaxTimer;
+	healingCooldown = 0;
+	while(healingTimer>0)
+	{
+		if(healingCooldown<10)
+		{
+			healingCooldown++;	
+		}
+		else
+		{
+			healingCooldown=0
+			sp+=5;
+			clamp(hp, 0, maxsp)
+		}
+
+		healingTimer--;
+	}
+}
 
 gun=0;
 gunhave1 = 0;
