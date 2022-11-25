@@ -236,7 +236,7 @@ if (hp>0)
 					timerslash--;
 					if(timerslash = 0)
 					{
-						action--; donow--;
+						action=0; donow=0;
 						if(razmah=1){razmah=2}
 						else {razmah =1}
 					}
@@ -380,6 +380,7 @@ if (hp>0)
 					
 						sprite_index = spr_joseph_run_down;
 						image_speed = 1;
+						image_xscale = 1
 						directio = 270;
 						if(!place_meeting(x, y+speed_player, obj_parent))
 							{
@@ -408,7 +409,6 @@ if (hp>0)
 							{
 								x -= speed_player / fps * 120;
 							}
-							//else {while (!place_meeting(x-1, y, obj_parent)) x -= 1 / fps * 120;}
 						}
 
 						if (right_move)
@@ -419,11 +419,11 @@ if (hp>0)
 							{
 								x += speed_player / fps * 120;
 							}
-							//else {while (!place_meeting(x+1, y, obj_parent)) x += 1 / fps * 120;}
 						}			
 				
 						if (!right_move and !left_move and !down_move and !up_move && chill = 0 ) {
 						image_speed = 0;
+						image_xscale=1
 						sprite_index = spr_joseph_spin_me_round;
 						if(directio = 0){image_index =0}
 						if(directio = 90){image_index =1}

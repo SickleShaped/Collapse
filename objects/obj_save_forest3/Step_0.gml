@@ -10,16 +10,16 @@ if(keyboard_check_released(ord("E")))
 {
 	if(distance_to_object(player)<20)
 	{
-		if(global.save_forest1=0)
+		if(global.save_forest3=0)
 		{
-			global.save_forest1 = 1	
+			global.save_forest3 = 1	
 		}
 		
 		if(player!= noone)
 		{
 			player.hp=player.maxhp		 
 		}
-		global.lastsave = 1
+		global.lastsave = 3
 		 global.savebanner = 2;
 		 save();
 		 if(object_exists(obj_save_teleporter))

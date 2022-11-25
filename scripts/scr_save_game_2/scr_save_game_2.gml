@@ -1,6 +1,5 @@
 ///@param name, color, text, emotion_1, emotion_2
 function save(){
-
 //if(global.location = 2)
 {
 ini_open("2save.ini")
@@ -54,9 +53,13 @@ ini_write_real("Locations", "mapforest11", obj_hpbar.mapforest11)
 ini_write_real("Locations", "mapforest12", obj_hpbar.mapforest12)
 ini_write_real("Locations", "mapforest13", obj_hpbar.mapforest13)
 ini_write_real("Locations", "mapforest14", obj_hpbar.mapforest14)
+
+ini_write_real("Global", "last_save", global.lastsave)
 ini_write_real("Global", "save_forest1", global.save_forest1)
 ini_write_real("Global", "save_forest2", global.save_forest2)
 ini_write_real("Global", "save_forest3", global.save_forest3)
+
+
 ini_write_real("Global", "haveforestkey", global.haveforestkey)
 			
 ini_write_real("Bosses","OwnerOfTheForest", global.OwnerOfTheForest)
@@ -85,7 +88,8 @@ ini_write_real("Dialogue", "Roland", global.dialogue_roland)
 ini_write_real("Dialogue", "Bertold", global.dialogue_bertold)
 ini_write_real("Dialogue", "Plant", global.dialogue_plant)
 ini_write_real("Dialogue", "OwnerOfTheForest", global.dialogue_owner_of_the_forest)
-		
+
+
 ini_write_real("Locations", "Forest", global.open_location_forest)
 ini_write_real("Locations", "ColdVastness", global.open_location_cold_vastness)
 ini_write_real("Locations", "RustyForest", global.open_location_rusty_forest)

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_save_forest2",
+  "name": "obj_save_forest3",
   "spriteId": {
-    "name": "spr_save2",
-    "path": "sprites/spr_save2/spr_save2.yy",
+    "name": "spr_save3",
+    "path": "sprites/spr_save3/spr_save3.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     {"x":5.0,"y":71.0,},
   ],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_parent","path":"objects/obj_parent/obj_parent.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":12,"collisionObjectId":null,},

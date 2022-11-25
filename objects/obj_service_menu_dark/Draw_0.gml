@@ -75,6 +75,7 @@ if (dodark=1 && dolight=0)
 			global.save_forest1 = ini_read_real("Global", "save_forest1", 1)
 			global.save_forest2 = ini_read_real("Global", "save_forest2", 0)
 			global.save_forest3 = ini_read_real("Global", "save_forest3", 0)
+			global.lastsave = ini_read_real("Global", "last_save", 1 )
 			
 			global.OwnerOfTheForest = ini_read_real("Bosses","OwnerOfTheForest", 0)
 			global.AmberRadiation = ini_read_real("Bosses","AmberRadiation", 0)

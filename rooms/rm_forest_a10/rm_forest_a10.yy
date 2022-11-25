@@ -69,6 +69,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2F9DC3E1","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_talltree1","path":"objects/obj_forest_talltree1/obj_forest_talltree1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":576.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5FBB8112","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_stump_2","path":"objects/obj_forest_stump_2/obj_forest_stump_2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":474.0,"y":401.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_175AFCD2","properties":[],"isDnd":false,"objectId":{"name":"obj_mysterious_trapdoor","path":"objects/obj_mysterious_trapdoor/obj_mysterious_trapdoor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":768.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2671A0D","properties":[],"isDnd":false,"objectId":{"name":"obj_save_forest2","path":"objects/obj_save_forest2/obj_save_forest2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":394.0,"y":328.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_4","tilesetId":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":51,"SerialiseHeight":63,"TileCompressedData":[
 -940,-2147483648,3,268435533,-2147483648,120,-96,-2147483648,3,268435511,-2147483648,268435555,-52,-2147483648,1,99,-5,-2147483648,1,268435577,-39,-2147483648,1,268435555,-53,-2147483648,1,99,-3,-2147483648,1,268435555,-58,-2147483648,1,121,-33,-2147483648,1,120,-6,-2147483648,1,99,-7,-2147483648,1,120,-91,-2147483648,1,
@@ -100,6 +101,7 @@
     {"name":"inst_2F9DC3E1","path":"rooms/rm_forest_a10/rm_forest_a10.yy",},
     {"name":"inst_5FBB8112","path":"rooms/rm_forest_a10/rm_forest_a10.yy",},
     {"name":"inst_175AFCD2","path":"rooms/rm_forest_a10/rm_forest_a10.yy",},
+    {"name":"inst_2671A0D","path":"rooms/rm_forest_a10/rm_forest_a10.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
