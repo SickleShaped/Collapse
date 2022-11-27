@@ -27,7 +27,7 @@ if(room = rm_forest_intro)
 else
 if(room = rm_forest_1  && hitthefloor = 0)
 {
-
+	instance_create_depth(0, 0, -y, obj_view)
 	sprite_index = spr_joseph_flydown	
 	if(shade_alpha>=0.05)
 	{
@@ -58,9 +58,11 @@ if(hitthefloor = 1)
 		global.location = 2;
 		instance_create_depth(135, 280, -y, obj_joseph)
 		instance_create_layer(0, 0, "Instances", obj_hpbar)
+		
 		global.save_forest1 = 1;
 		global.mainstorylocation="MossyThickets";
 		global.savebanner = 2;
+		global.lastsave = 1
 		save();
 		instance_destroy()
 	}

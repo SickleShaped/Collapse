@@ -16,7 +16,8 @@ if (dodark=1 && dolight=0)
 	{
 		instance_create_depth(300, 300, -y, obj_joseph)
 		instance_create_depth(0,0, -y, obj_hpbar)
-		instance_create_depth(0, 0, -y, Obj_view)
+		instance_create_depth(0, 0, -y, obj_view)
+		
 		
 		ini_open("2save.ini")
 		{
@@ -26,6 +27,7 @@ if (dodark=1 && dolight=0)
 			obj_joseph.healscount = ini_read_real("Joseph", "healscount", 3)
 			rm=ini_read_real("Joseph", "room", rm_forest_1)
 			global.mainstorylocation = ini_read_string("Joseph", "mainStoryLocation", "Мшистые заросли")
+			global.lastsave=1;
 			player_x=ini_read_real("Joseph", "x", 135)
 			player_y=ini_read_real("Joseph", "y", 280)
 			obj_joseph.gun=ini_read_real("Joseph", "gun", 0)
@@ -115,6 +117,8 @@ if (dodark=1 && dolight=0)
 			global.open_location_junkyard= ini_read_real("Locations", "Junkyard", 0)
 			global.open_location_echo_valley= ini_read_real("Locations", "EchoValley", 0)
 			global.open_location_city_of_winds= ini_read_real("Locations", "CityOfWinds", 0)
+			global.open_location_city_downpour= ini_read_real("Locations", "CityDownpour", 0)
+			global.open_location_crystal_forest = ini_read_real("Locations", "CrystalForest", 0)
 			global.open_location_white_taiga= ini_read_real("Locations", "WhiteTaiga", 0)
 			global.open_location_outskirs= ini_read_real("Locations", "Outskirs", 0)
 			global.open_location_wastelands= ini_read_real("Locations", "Wastelands", 0)

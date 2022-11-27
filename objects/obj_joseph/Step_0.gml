@@ -246,6 +246,7 @@ if (hp>0)
 				
 						if(gun = 1 && energy>=4 && canshoot = true)
 						{
+							image_xscale = 1
 							aa = obj_cursor.x
 							bb = obj_cursor.y
 							ax = obj_joseph.x
@@ -393,6 +394,7 @@ if (hp>0)
 						if (up_move)
 						{
 						sprite_index = spr_joseph_run_up;
+						image_xscale = 1
 						image_speed = 1; directio = 90;		
 							if(!place_meeting(x, y-speed_player, obj_parent))
 							{
@@ -403,7 +405,7 @@ if (hp>0)
 					
 						if (left_move)
 						{	
-						sprite_index = spr_joseph_run_left; image_speed = 1;
+						sprite_index = spr_joseph_run_left; image_speed = 1; image_xscale = 1
 						directio = 180; directioLR = 2;
 							if(!place_meeting(x-speed_player, y, obj_parent))
 							{
@@ -413,7 +415,7 @@ if (hp>0)
 
 						if (right_move)
 						{
-						sprite_index = spr_joseph_run_right; image_speed = 1;
+						sprite_index = spr_joseph_run_right; image_speed = 1; image_xscale = 1
 						directio = 0; directioLR = 1;
 							if(!place_meeting(x+speed_player, y, obj_parent))
 							{

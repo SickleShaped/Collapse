@@ -15,7 +15,7 @@ if(enemy != noone)
 	
 	if(point_in_rectangle(x, y, rectangle_x1-4, rectangle_y1, rectangle_x2+4, rectangle_y2))
 	{
-			global.hp_player = global.hp_player - irandom_range(15, 20)*enemy.blueresistance
+			enemy.hp = enemy.hp - irandom_range(15, 20)*enemy.blueresistance
 			instance_destroy()
 	}
 }

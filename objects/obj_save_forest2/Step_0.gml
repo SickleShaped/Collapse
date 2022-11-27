@@ -26,10 +26,8 @@ if(keyboard_check_released(ord("E")))
 		 if(object_exists(obj_save_teleporter))
 		 {
 			instance_destroy(obj_save_teleporter)
-			instance_destroy(obj_save_teleport_button_f);
 		 }
 		 
-		 instance_create_layer(x, y, "Instances", obj_save_teleport_button_f)
 		 instance_create_layer(x, y, "Instances", obj_save_teleporter)
 
 	}
