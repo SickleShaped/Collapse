@@ -5,7 +5,7 @@ isactive=false;
 choosenLocation = 1;
 choosenSave = 0;
 
-teleport=false;
+_teleport=false;
 
 global.save_forest1 = 1
 global.save_forest2 = 1

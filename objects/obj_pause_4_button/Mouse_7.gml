@@ -2,8 +2,9 @@ global.pause2 = 0
 global.location = 0
 
 instance_destroy(obj_view)
+instance_destroy(obj_teleporter_dark)
 instance_destroy(obj_save_teleporter)
-instance_destroy(obj_dark)
+instance_destroy(obj_map)
 instance_destroy(obj_joseph)
 
 instance_destroy( obj_pause_pause)

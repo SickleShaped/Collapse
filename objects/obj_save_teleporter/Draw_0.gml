@@ -17,13 +17,13 @@ if(isactive=false)
 		}
 	}
 	
-	if(distance_to_object(obj_joseph)>30){instance_destroy()}
+	if(distance_to_object(obj_joseph)>50){instance_destroy()}
 	
 }
 else
 {
 	global.cutscene = 1;
-	if(!teleport)
+	if(!_teleport)
 	{
 		obj_joseph.sprite_index = spr_joseph_charge_tired;
 		obj_joseph.image_speed = 0;
@@ -570,19 +570,29 @@ else
 					switch(choosenSave)
 					{
 						case 1:
-							//scr_room_goto_dark(rm_forest_1, 143, 270, "MossyThickets" )
-							teleport=true;
+							var teleport = instance_create_depth(x, y, -y, obj_teleporter_dark)
+								teleport.newroom = rm_forest_1;
+								teleport.newx = 171;
+								teleport.newy=228;
+								teleport.nowlocation="MossyThickets"
 							break;
 							
 						case 2:
-							//scr_room_goto_dark(rm_forest_a10, 417, 342, "MossyThickets" )
-							teleport=true;
+							var teleport = instance_create_depth(x, y, -y, obj_teleporter_dark)
+							teleport.newroom = rm_forest_a10;
+							teleport.newx = 369;
+							teleport.newy=326;
+							teleport.nowlocation="MossyThickets"
 							break;
 							
 						case 3:
-							//global.mainstorylocation="MossyThickets";
-							//scr_room_goto_dark(rm_forest_a13, 1259 ,325 ,"MossyThickets")
-							teleport=true;
+							var teleport = instance_create_depth(x, y, -y, obj_teleporter_dark)
+							teleport.newroom = rm_forest_a13;
+							teleport.newx = 1270;
+							teleport.newy=312;
+							teleport.nowlocation="MossyThickets"
+							break;
+							
 						
 					}
 					
@@ -591,13 +601,10 @@ else
 		}
 	#endregion
 	
-	if(teleport=true)
+	/*
+	if(_teleport=true)
 	{
-		obj_joseph.sprite_index = spr_joseph_death;
-		obj_joseph.image_speed=1;
-		if(obj_joseph.image_index>=31){obj_joseph.sprite_index=noone; instance_create_depth(vx, vy, obj_dark)}
-		
-		var dark = instance_nearest(x, y, obj_dark);
+		var dark = instance_nearest(x, y, obj_teleporter_dark);
 		if(dark)
 		{
 			if(dark.alpha>=0.98)
@@ -605,14 +612,36 @@ else
 				switch(choosenSave)
 				{
 					case 1:
+						var teleport = instance_create_depth(x, y, -y, obj_teleporter_dark)
+								teleport.newroom = rm_forest_1;
+								teleport.newx = 171;
+								teleport.newy=228;
+								teleport.nowlocation="MossyThickets"
+							break;
+						
+					case 2:
+						var teleport = instance_create_depth(x, y, -y, obj_teleporter_dark)
+							teleport.newroom = rm_forest_a10;
+							teleport.newx = 369;
+							teleport.newy=326;
+							teleport.nowlocation="MossyThickets"
 						break;
+						
+					case 3:
+						var teleport = instance_create_depth(x, y, -y, obj_teleporter_dark)
+							teleport.newroom = rm_forest_a13;
+							teleport.newx = 1270;
+							teleport.newy=312;
+							teleport.nowlocation="MossyThickets"
+						break;
+						
 				}
 			
 			}
 		}
 		
 		
-	}
+	}*/
 	
 	#region телоепорт
 	

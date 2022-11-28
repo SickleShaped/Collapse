@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_dark",
+  "name": "obj_map",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "TICollapse",
-    "path": "TICollapse.yyp",
+    "name": "2_MainStory",
+    "path": "folders/2_MainStory.yy",
   },
 }

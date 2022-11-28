@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rm_forest_a14",
-  "isDnd": true,
+  "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
   "views": [

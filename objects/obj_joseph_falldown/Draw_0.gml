@@ -58,6 +58,7 @@ if(hitthefloor = 1)
 		global.location = 2;
 		instance_create_depth(135, 280, -y, obj_joseph)
 		instance_create_layer(0, 0, "Instances", obj_hpbar)
+		obj_hpbar.mapforest1=1;
 		
 		global.save_forest1 = 1;
 		global.mainstorylocation="MossyThickets";
