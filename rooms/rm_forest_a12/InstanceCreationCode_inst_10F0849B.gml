@@ -1,4 +1,4 @@
-newx = 1317
-newy = 290
+newx = 1354
+newy = 310
 newroom = rm_forest_a13
 nowlocation="MossyThickets"
