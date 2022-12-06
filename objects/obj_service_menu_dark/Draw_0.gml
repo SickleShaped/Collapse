@@ -107,6 +107,7 @@ if (dodark=1 && dolight=0)
 			global.dialogue_owner_of_the_forest = ini_read_real("Dialogue", "OwnerOfTheForest", 0)
 			
 			global.haveforestkey = ini_read_real("Global", "haveforestkey", 0)
+			global.have_oof_sword = ini_read_real("Global", "have_oof_key", 0)
 			
 			global.open_location_forest= ini_read_real("Locations", "Forest", 1)
 			global.open_location_cold_vastness= ini_read_real("Locations", "ColdVastness", 0)

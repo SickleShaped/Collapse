@@ -59,7 +59,7 @@ ini_write_real("Global", "save_forest1", global.save_forest1)
 ini_write_real("Global", "save_forest2", global.save_forest2)
 ini_write_real("Global", "save_forest3", global.save_forest3)
 
-
+ini_write_real("Global", "have_oof_key", global.have_oof_sword)
 ini_write_real("Global", "haveforestkey", global.haveforestkey)
 			
 ini_write_real("Bosses","OwnerOfTheForest", global.OwnerOfTheForest)

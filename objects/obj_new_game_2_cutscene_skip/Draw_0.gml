@@ -4,7 +4,7 @@ if(global.dark=0)
 
 	if(skip_alpha>0)
 	{
-		draw_sprite_ext(spr_e_to_skip, spr_e_to_skip, 541, 334, 1, 1, 0, c_white, skip_alpha)
+		draw_sprite_ext(spr_e, spr_e, 541, 334, 1, 1, 0, c_white, skip_alpha)
 		draw_set_font(font_skip)
 		draw_set_color(c_white)
 		draw_text_color(552, 323, "для пропуска", c_white, c_white, c_white, c_white, skip_alpha)

@@ -1,5 +1,9 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 50C934FB
-/// @DnDArgument : "code" "event_inherited();"
 event_inherited();
+smenaplus = 0;
+smenaminus = 1;
+
+e_x = 15;
+e_y = 15;
+e_distance = 10;
+
+isactive = true;

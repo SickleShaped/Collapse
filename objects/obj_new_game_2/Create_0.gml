@@ -92,7 +92,8 @@ global.save_forest1 = 0;
 global.save_forest2 = 0;
 global.save_forest3 = 0;
 //подбираемые предметы
-//global.forestkey = 0;
+global.have_oof_sword = 0;
+global.haveforestkey=0;
 //проресс диалогов
 global.dialogue_roland = 0;
 global.dialogue_bertold = 0;

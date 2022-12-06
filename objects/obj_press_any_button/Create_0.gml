@@ -61,6 +61,7 @@ global.open_location_abyss=false;
 global.open_location_floating_lands = false;
 global.open_location_city_of_lanterns = false;
 global.open_location_the_spire_of_cube = false;
+global.have_oof_sword = 0;
 #endregion
 
 //интерактивчик
