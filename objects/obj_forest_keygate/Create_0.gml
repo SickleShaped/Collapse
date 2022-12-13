@@ -1,3 +1,5 @@
+event_inherited()
+
 depth = -y
 isopen = false
 e_x = -100;

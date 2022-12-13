@@ -588,8 +588,8 @@ else
 						case 3:
 							var teleport = instance_create_depth(x, y, -y, obj_teleporter_dark)
 							teleport.newroom = rm_forest_a13;
-							teleport.newx = 1270;
-							teleport.newy=312;
+							teleport.newx = 1317;
+							teleport.newy=405;
 							teleport.nowlocation="MossyThickets"
 							break;
 							

@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "spr",
-    "path": "folders/2_MainStory/Locations/mossy_thickets/spr.yy",
+    "name": "small_decorations",
+    "path": "folders/2_MainStory/small_decorations.yy",
   },
 }

@@ -38,7 +38,7 @@ if(global.savebanner = 2)
 	if(savebanner_alpha<1)
 	{
 	
-	draw_sprite_ext(spr_saving, spr_saving, global.vx+room_height/2, global.vy+room_width/2, 2, 2, 0, c_white, savebanner_alpha)
+	draw_sprite_ext(spr_saving, spr_saving, vx+room_height/2, vy+room_width/2, 2, 2, 0, c_white, savebanner_alpha)
 	savebanner_alpha+=0.1
 	}
 	else{global.savebanner=1}
@@ -47,7 +47,7 @@ else if(global.savebanner = 1)
 {
 	if(savebanner_alpha>0)
 	{
-	draw_sprite_ext(spr_saving, spr_saving, global.vx+320, global.vy+300, 2, 2, 0, c_white, savebanner_alpha)
+	draw_sprite_ext(spr_saving, spr_saving, vx+320, vy+300, 2, 2, 0, c_white, savebanner_alpha)
 	savebanner_alpha-=0.01
 	}
 	else{global.savebanner = 0}

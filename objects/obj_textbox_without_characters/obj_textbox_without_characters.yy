@@ -8,7 +8,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_parent_textbox",
+    "path": "objects/obj_parent_textbox/obj_parent_textbox.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

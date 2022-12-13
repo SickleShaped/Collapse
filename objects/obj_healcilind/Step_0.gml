@@ -1,23 +1,11 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 3192DC79
-/// @DnDArgument : "code" "if(distance_to_object(obj_cursor)<10)$(13_10){$(13_10)	if(smenaplus=0)$(13_10)	{$(13_10)	image_index++;$(13_10)	smenaplus = 1;$(13_10)	smenaminus = 0;$(13_10)	}$(13_10)}	$(13_10)$(13_10)if(distance_to_object(obj_cursor)>=10)$(13_10){ $(13_10)	if(smenaminus=0){$(13_10)	image_index--;$(13_10)	smenaplus = 0;$(13_10)	smenaminus = 1;$(13_10)	}$(13_10)	$(13_10)}"
-if(distance_to_object(obj_cursor)<10)
-{
-	if(smenaplus=0)
-	{
-	image_index++;
-	smenaplus = 1;
-	smenaminus = 0;
-	}
-}	
+var player = instance_nearest(x, y, obj_parent_player)
 
-if(distance_to_object(obj_cursor)>=10)
-{ 
-	if(smenaminus=0){
-	image_index--;
-	smenaplus = 0;
-	smenaminus = 1;
-	}
+if(distance_to_object(obj_cursor)<20 || distance_to_object(player)<20)
+{
+	image_index=start_index+1
+		
 	
 }
+else{image_index=start_index}
+
+
