@@ -43,14 +43,15 @@ if accept_key
 	{
 	if draw_char == text_lenght[page]
 		{
-			if page <page_number-1
+			if page <page_number-1 
 				{
 					page++;
 					draw_char = 0;
 				}
 			else
 				{
-					instance_destroy();
+					alarm[0]=30;
+					//instance_destroy();
 					
 				}
 			

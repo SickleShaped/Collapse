@@ -1,3 +1,4 @@
+var textbox=instance_nearest(x,y, obj_parent_textbox)
 if(global.haveforestkey = true)
 {
 	if(distance_to_object(obj_joseph)<20)
@@ -17,11 +18,20 @@ if(distance_to_object(obj_joseph)<=10)
 	if(global.haveforestkey=true)
 	{
 		global.openforestgate_1 = true;
-		e_text ="Войти во Врата";
 	}
 	else
 	{
 		timerch = 210
+		if(textbox=noone)
+			{
+
+				with (instance_create_depth(0, 0, -100000, obj_textbox_without_characters))
+				{
+					scr_text_no(" ", "Заперто.")
+
+				}
+	
+			}
 	}
 }
 

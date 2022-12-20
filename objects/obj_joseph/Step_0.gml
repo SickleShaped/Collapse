@@ -374,6 +374,7 @@ if (hp>0)
 					//следующее действие
 						if(action_next>0)
 						{action = action_next; action_next = 0; trigger = 1}
+						actcooldown=0;
 					
 					//ходьба
 						if (down_move)
@@ -400,7 +401,6 @@ if (hp>0)
 							{
 								y -= speed_player / fps * 120;
 							}
-						//else {while (!place_meeting(x, y-1, obj_parent_wall)) y -= 1 / fps * 120;}
 						}
 					
 						if (left_move)
@@ -432,6 +432,8 @@ if (hp>0)
 						if(directio = 180){image_index =2}
 						if(directio = 270){image_index =3}
 						}
+						
+						//donow=0;
 				
 					break;
 				

@@ -2,9 +2,8 @@ event_inherited()
 
 depth = -y
 isopen = false
-e_x = -100;
-e_y = 60;
-e_text ="Врата";
+e_x = -20;
+e_y = 20;
 e_distance = 10;
 e_cursor_or_player = 1;
 

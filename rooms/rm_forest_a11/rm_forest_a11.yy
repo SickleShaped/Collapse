@@ -16,7 +16,9 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1024,"hview":768,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","instances":[],"visible":true,"depth":-10000000,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6267D811","properties":[],"isDnd":false,"objectId":{"name":"obj_forest_lever2","path":"objects/obj_forest_lever2/obj_forest_lever2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":656.0,"y":1045.0,},
+      ],"visible":true,"depth":-10000000,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_5","tilesetId":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":64,"SerialiseHeight":126,"TileCompressedData":[
 -288,-2147483648,1,29,-45,-2147483648,1,29,-32,-2147483648,1,29,-12,-2147483648,1,29,-245,-2147483648,-2,29,-62,-2147483648,1,29,-33,-2147483648,1,29,-44,-2147483648,1,29,-38,-2147483648,1,29,-126,-2147483648,1,29,-147,-2147483648,1,29,-215,-2147483648,1,29,-27,-2147483648,1,29,-5,-2147483648,1,29,-391,-2147483648,1,29,-72,-2147483648,1,29,
 -109,-2147483648,1,29,-22,-2147483648,1,8,-39,-2147483648,1,29,-202,-2147483648,1,29,-49,-2147483648,1,29,-18,-2147483648,1,8,-45,-2147483648,1,0,-85,-2147483648,1,8,-53,-2147483648,1,29,-51,-2147483648,1,29,-11,-2147483648,-2,0,-267,-2147483648,1,8,-228,-2147483648,1,29,-83,-2147483648,1,8,-113,-2147483648,1,29,-61,-2147483648,1,29,
@@ -325,6 +327,7 @@
     {"name":"inst_59D4E07E","path":"rooms/rm_forest_a11/rm_forest_a11.yy",},
     {"name":"inst_60525801","path":"rooms/rm_forest_a11/rm_forest_a11.yy",},
     {"name":"inst_75627503","path":"rooms/rm_forest_a11/rm_forest_a11.yy",},
+    {"name":"inst_6267D811","path":"rooms/rm_forest_a11/rm_forest_a11.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

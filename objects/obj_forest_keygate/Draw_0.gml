@@ -2,10 +2,7 @@ event_inherited()
 
 if(timerch>0)
 {
-	draw_set_color(c_white);
-	draw_set_font(fontpresse)
-	draw_sprite(spr_no_key, spr_no_key, x-100, y-40)	;
-	draw_text(x-80, y-40, "Нет ключа")
+	draw_sprite(spr_no_key, spr_no_key, x-100, y-40);
 }
 
 if(timerch>0)

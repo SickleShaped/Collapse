@@ -64,6 +64,7 @@ if(hitthefloor = 1)
 		global.mainstorylocation="MossyThickets";
 		global.savebanner = 2;
 		global.lastsave = 1
+		global.understandToOOFSword = 0;
 		save();
 		instance_destroy()
 	}

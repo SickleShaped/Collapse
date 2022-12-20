@@ -50,7 +50,7 @@ if accept_key
 				}
 			else
 				{
-					global.cutscene=0;
+					alarm[0]=30;
 					instance_destroy();
 					
 				}
