@@ -445,6 +445,7 @@ if (hp>0)
 			
 			
 			}
+			else{sprite_index=spr_nothing}
 		
 		
 		}
