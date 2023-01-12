@@ -29,8 +29,6 @@
   "gridY": 0,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"204df1c5-db6c-4d57-95e8-eca9b36c32d5",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9ac49af8-13bc-4c26-893b-75882c9cc043",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"561ac7cf-66fc-4469-a80f-070c2d6e988b",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -42,14 +40,12 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 3.0,
+    "length": 1.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b10d15db-8bce-4b6b-b103-49976ff7ce9e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"204df1c5-db6c-4d57-95e8-eca9b36c32d5","path":"sprites/spr_forest_NOT_hallucinatory_shroom_big/spr_forest_NOT_hallucinatory_shroom_big.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"ff422c4a-5cf3-487d-b700-06ee58d8aaae","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9ac49af8-13bc-4c26-893b-75882c9cc043","path":"sprites/spr_forest_NOT_hallucinatory_shroom_big/spr_forest_NOT_hallucinatory_shroom_big.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"762ad883-96ea-45eb-87e0-205ca56715f7","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"561ac7cf-66fc-4469-a80f-070c2d6e988b","path":"sprites/spr_forest_NOT_hallucinatory_shroom_big/spr_forest_NOT_hallucinatory_shroom_big.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,

@@ -43,7 +43,7 @@
     "name": "spr_joseph_attack1_D1",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 19.0,
+    "playbackSpeed": 12.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

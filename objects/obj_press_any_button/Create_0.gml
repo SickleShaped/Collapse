@@ -9,7 +9,9 @@ if(picture>99)
 {
 	backpicture = spr_silentscream;
 }
-else {backpicture = spr_mentalmachine;}
+else {
+	backpicture = spr_mentalmachine;
+	}
 
 
 

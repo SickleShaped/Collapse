@@ -28,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "TICollapse",
-    "path": "TICollapse.yyp",
+    "name": "obj",
+    "path": "folders/2_MainStory/Interactive/obj.yy",
   },
 }

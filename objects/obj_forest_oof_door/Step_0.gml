@@ -1,10 +1,8 @@
 event_inherited();
 
 
-if(global.forest_lever1 ==true && global.forest_lever2==true&& image_speed = 0)
+if(global.forest_lever1 ==true && global.forest_lever2==true)
 {
-	image_speed = 1;
+	instance_destroy()
 	
 }
-
-if(image_index >= 12){ instance_destroy()}

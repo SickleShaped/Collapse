@@ -1,7 +1,7 @@
 var player = instance_nearest(x, y, obj_parent_player)
 var textbox = instance_nearest(x,y, obj_parent_textbox)
 
-if(distance_to_object(player)<10)
+if(distance_to_object(player)<20)
 {
 	if(textbox=noone)
 	{

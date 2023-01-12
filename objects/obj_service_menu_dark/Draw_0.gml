@@ -78,7 +78,9 @@ if (dodark=1 && dolight=0)
 			global.save_forest2 = ini_read_real("Global", "save_forest2", 0)
 			global.save_forest3 = ini_read_real("Global", "save_forest3", 0)
 			global.lastsave = ini_read_real("Global", "last_save", 1 )
-			
+			global.forest_lever1 = ini_read_real("Global", "Forest Lever1", 0)
+			global.forest_lever2 = ini_read_real("Global", "Forest Lever2", 0)
+
 			global.hidehpbar=0;
 			
 			global.OwnerOfTheForest = ini_read_real("Bosses","OwnerOfTheForest", 0)

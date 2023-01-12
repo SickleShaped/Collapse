@@ -19,7 +19,7 @@ if(keyboard_check_released(ord("E")))
 		{
 			player.hp=player.maxhp		 
 		}
-		global.lastsave = 1
+		global.lastsave = numbersave
 		 global.savebanner = 2;
 		 save();
 		 if(object_exists(obj_save_teleporter))

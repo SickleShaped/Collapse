@@ -1,5 +1,5 @@
 //параментры текстбокса
-global.cutscene = 1
+
 
 textbox_width = 590
 textbox_hieght = 100

@@ -61,6 +61,8 @@ ini_write_real("Global", "save_forest3", global.save_forest3)
 
 ini_write_real("Global", "have_oof_key", global.have_oof_sword)
 ini_write_real("Global", "haveforestkey", global.haveforestkey)
+ini_write_real("Global","Forest Lever1",global.forest_lever1)
+ini_write_real("Global","Forest Lever2",global.forest_lever2)
 			
 ini_write_real("Bosses","OwnerOfTheForest", global.OwnerOfTheForest)
 ini_write_real("Bosses","AmberRadiation", global.AmberRadiation)
@@ -88,6 +90,8 @@ ini_write_real("Dialogue", "Roland", global.dialogue_roland)
 ini_write_real("Dialogue", "Bertold", global.dialogue_bertold)
 ini_write_real("Dialogue", "Plant", global.dialogue_plant)
 ini_write_real("Dialogue", "OwnerOfTheForest", global.dialogue_owner_of_the_forest)
+
+
 
 
 ini_write_real("Locations", "Forest", global.open_location_forest)

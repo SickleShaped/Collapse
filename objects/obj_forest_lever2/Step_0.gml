@@ -26,6 +26,7 @@ else
 		obj_joseph.y=y-10;
 		obj_joseph.directio=0;
 		nowAnimate=0;
+		global.forest_lever2 = true;
 		sprite_index=spr_forest_lever2;
 	}
 }

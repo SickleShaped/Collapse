@@ -124,7 +124,7 @@ case 1:
 	draw_sprite(spr_energybar,spr_energybar,vx+139, vy+29)
 	break;	
 }
-if(obj_joseph.canshoot = false){draw_sprite(spr_no_shoot_now, spr_no_shoot_now, vx+139, vy+ 29)}
+if(obj_joseph.canShoot = false){draw_sprite(spr_no_shoot_now, spr_no_shoot_now, vx+139, vy+ 29)}
 
 if(global.cheatmode=1)
 {

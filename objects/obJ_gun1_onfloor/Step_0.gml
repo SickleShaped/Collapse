@@ -23,6 +23,6 @@ if(distance_to_object(obj_cursor)>=10)
 var player = instance_nearest(x, y, obj_parent_player)
 if(player !=noone)
 {
-	//if(player.gunhave1 = 1) {instance_destroy()}
+	if(player.gunhave1 = 1) {instance_destroy()}
 	
 }

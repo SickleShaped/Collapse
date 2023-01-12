@@ -20,7 +20,7 @@ if(distance_to_object(obj_joseph)<10)
 			global.cutscene=1;
 			isactive=false;
 			nowAnimate=true;
-			global.forest_lever2 = true;
+			
 			sprite_index=spr_joseph_activate_forest_lever2;
 			image_speed=1;
 		}

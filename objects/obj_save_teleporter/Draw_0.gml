@@ -575,6 +575,7 @@ else
 								teleport.newx = 171;
 								teleport.newy=228;
 								teleport.nowlocation="MossyThickets"
+								teleport.newlastsave = 1;
 							break;
 							
 						case 2:
@@ -583,6 +584,7 @@ else
 							teleport.newx = 369;
 							teleport.newy=326;
 							teleport.nowlocation="MossyThickets"
+							teleport.newlastsave = 2;
 							break;
 							
 						case 3:
@@ -591,6 +593,7 @@ else
 							teleport.newx = 1317;
 							teleport.newy=405;
 							teleport.nowlocation="MossyThickets"
+							teleport.newlastsave = 3;
 							break;
 							
 						
